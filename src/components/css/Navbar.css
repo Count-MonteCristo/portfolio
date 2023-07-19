@@ -1,6 +1,21 @@
+#navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  transition: background-color 0.5s ease, color 0.5s ease; /* Add transition for smooth color change */
+}
+
 .navbar-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
 }
 
 .navbar-nav {
@@ -9,5 +24,33 @@
 }
 
 .nav-link {
+  position: relative;
   padding: 0.5rem 1rem;
+  margin-left: 20px;
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+}
+
+.stripes-svg {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 5px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.nav-link:hover .stripes-svg {
+  opacity: 1;
+}
+
+.sticky {
+  background-color: #0e192a; /* Background color when sticky */
+}
+
+.sticky .nav-link {
+  color: #cccccc; /* Font color when sticky */
 }
