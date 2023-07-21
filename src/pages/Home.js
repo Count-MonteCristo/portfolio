@@ -2,10 +2,12 @@ import React from "react";
 import "./css/home.css";
 import Typewriter from "typewriter-effect";
 import stripesSVG from "../assets/heroStripes.svg";
+import companyLogos from "../assets/companies.png";
 
 const Home = () => {
   return (
     <>
+      {/* Hero section */}
       <div className="hero">
         <div className="hero-text">
           <h2 className="hero-subtitle">Hello, my name is Luis.</h2>
@@ -43,6 +45,22 @@ const Home = () => {
         alt="Stripes"
         className="heroStripes-svg"
       />
+
+      {/* Trusted by section */}
+      <div className="trusted-section">
+        <div className="container">
+          <h2 className="trustedSection-title">Trusted by</h2>
+          <div className="row">
+            <div className="company-logos">
+              <img
+                src={companyLogos}
+                alt="Company Logos"
+                className="company-logos"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };

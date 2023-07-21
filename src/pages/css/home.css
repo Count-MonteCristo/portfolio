@@ -8,7 +8,7 @@
 .hero-text {
   max-width: 50%;
   padding-top: 175px;
-  padding-left: 50px;
+  padding-left: 150px;
 }
 
 .hero-heading {
@@ -36,7 +36,6 @@
 .hero-button {
   padding: 10px 20px;
   margin-top: 60px;
-  background-color: #007bff;
   color: #282825;
   text-decoration: none;
   font-size: 18px;
@@ -49,6 +48,21 @@
   width: 100%;
 }
 
+/* Trusted by section */
+
+.trustedSection-title {
+  color: #333;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.company-logos {
+  text-align: center;
+  padding-bottom: 60px;
+}
 /* Responsive code */
 @media screen and (max-width: 768px) {
   .hero {
