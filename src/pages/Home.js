@@ -17,12 +17,9 @@ const Home = () => {
               }}
               onInit={(typewriter) => {
                 typewriter
-                  .typeString("I am a Web Designer")
+                  .typeString("I am a Software Engineer")
                   .pauseFor(1500)
-                  .deleteChars(12)
-                  .typeString("Full-Stack Developer")
-                  .pauseFor(1500)
-                  .deleteChars(21)
+                  .deleteChars(18)
                   .typeString("n SEO Editor")
                   .pauseFor(1500)
                   .start();
