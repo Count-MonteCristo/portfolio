@@ -8,14 +8,13 @@
 .hero-text {
   max-width: 50%;
   padding-top: 175px;
-  padding-left: 150px;
 }
 
 .hero-heading {
   color: #333;
   font-size: 56px;
   font-weight: 700;
-  width: 900px;
+  width: 720px;
 }
 
 .hero-subtitle {
@@ -53,9 +52,9 @@
 .trustedSection-title {
   color: #333;
   text-align: center;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 700;
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 60px;
 }
 
@@ -63,6 +62,23 @@
   text-align: center;
   padding-bottom: 60px;
 }
+
+/* Services section */
+
+.servicesSection-title {
+  color: #333;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.servicesSection-p {
+  color: #666;
+  font-size: 24px;
+  font-weight: 400;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
 /* Responsive code */
 @media screen and (max-width: 768px) {
   .hero {

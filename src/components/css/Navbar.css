@@ -1,10 +1,10 @@
 #navbar {
   position: sticky;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   top: 0;
   z-index: 100;
-  transition: background-color 0.5s ease, color 0.5s ease; /* Add transition for smooth color change */
+  transition: background-color 0.6s ease, color 0.6s ease;
 }
 
 .navbar-container {
@@ -50,7 +50,7 @@
 }
 
 .sticky {
-  background-color: #0e192a; /* Background color when sticky */
+  background-color: #1a304f; /* Background color when sticky */
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
 }
 

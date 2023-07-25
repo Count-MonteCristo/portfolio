@@ -1,0 +1,56 @@
+.tabbed-interface {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-side {
+  flex: 1;
+  text-align: center;
+}
+
+.tab-image {
+  max-width: 100%;
+  max-height: 400px;
+}
+
+.right-side {
+  flex: 1;
+}
+
+.tab-item {
+  padding-bottom: 60px;
+  display: flex;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.active-tab {
+  color: #666;
+}
+
+.inactive-tab {
+  color: #ccc;
+}
+
+.tabText {
+  transition: opacity 0.9s ease; /* Add the transition for opacity */
+}
+
+.tabSVG {
+  padding-left: 20px;
+  padding-right: 0px;
+  opacity: 0; /* Set initial opacity to 0 */
+  transition: opacity 0.9s ease; /* Add the transition for opacity */
+}
+
+.tab-item:hover .tabSVG,
+.active-tab .tabSVG {
+  opacity: 1; /* Show the SVG when the tab is hovered or active */
+}
+
+p {
+  margin-bottom: 0;
+}
