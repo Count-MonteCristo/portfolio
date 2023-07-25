@@ -52,31 +52,31 @@
 .trustedSection-title {
   color: #333;
   text-align: center;
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 700;
   padding-top: 30px;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 .company-logos {
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 /* Services section */
 
 .servicesSection-title {
   color: #333;
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 700;
 }
 
 .servicesSection-p {
   color: #666;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
-  padding-top: 20px;
-  padding-bottom: 60px;
+  padding-top: 10px;
+  padding-bottom: 80px;
 }
 
 /* Responsive code */
