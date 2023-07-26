@@ -50,10 +50,9 @@
 }
 
 .sticky {
-  background-color: #1a304f; /* Background color when sticky */
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+  background-color: #f4f5f5fb; /* Background color when sticky */
 }
 
 .sticky .nav-link {
-  color: #cccccc; /* Font color when sticky */
+  /* color: #cccccc; */
 }
