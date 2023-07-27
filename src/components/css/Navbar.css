@@ -50,9 +50,6 @@
 }
 
 .sticky {
-  background-color: #f4f5f5fb; /* Background color when sticky */
-}
-
-.sticky .nav-link {
-  /* color: #cccccc; */
+  background-color: #f4f5f5d8; /* Background color when sticky */
+  backdrop-filter: blur(10px);
 }
