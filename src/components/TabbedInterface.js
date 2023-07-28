@@ -49,8 +49,8 @@ const TabbedInterface = () => {
             onMouseEnter={() => handleTabChange(index)}
           >
             <div className="tabText">
-              <h3>{tab.label}</h3>
-              <p>{tab.description}</p>
+              <h3 className="tabLabel">{tab.label}</h3>
+              <p className="tabDescription">{tab.description}</p>
             </div>
             <div className="tabSVG">
               {index === activeTab && (

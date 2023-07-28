@@ -6,15 +6,15 @@
 }
 
 .hero-text {
-  max-width: 50%;
-  padding-top: 175px;
+  max-width: 100%;
+  padding-top: 150px;
+  text-align: center;
 }
 
 .hero-heading {
   color: #333;
-  font-size: 56px;
+  font-size: 96px;
   font-weight: 700;
-  width: 720px;
 }
 
 .hero-subtitle {
@@ -25,7 +25,6 @@
 }
 
 .hero-description {
-  width: 700px;
   color: #666;
   font-size: 28px;
   font-weight: 400;
@@ -52,7 +51,7 @@
 .trustedSection-title {
   color: #333;
   text-align: center;
-  font-size: 32px;
+  font-size: 48px;
   font-weight: 700;
   padding-top: 30px;
   padding-bottom: 40px;
@@ -60,22 +59,27 @@
 
 .company-logos {
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 /* Services section */
 
+.home-H2s {
+  display: flex;
+  gap: 40px;
+}
+
 .servicesSection-title {
   color: #333;
-  font-size: 32px;
+  font-size: 48px;
   font-weight: 700;
 }
 
 .servicesSection-p {
   color: #666;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 400;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 80px;
 }
 
