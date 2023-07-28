@@ -52,6 +52,20 @@ const NavBar = () => {
           </Link>
 
           <Link
+            to="/about"
+            className="nav-link"
+            id="about-link"
+            onClick={handleNavLinkClick}
+          >
+            About
+            <img
+              src={stripesSVG}
+              alt="Stripes"
+              className="stripes-svg"
+            />
+          </Link>
+
+          <Link
             to="/portfolio"
             className="nav-link"
             id="portfolio-link"

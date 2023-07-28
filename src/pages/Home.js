@@ -2,6 +2,7 @@ import React from "react";
 import "./css/home.css";
 import Typewriter from "typewriter-effect";
 import stripesSVG from "../assets/heroStripes.svg";
+import h2stripesSVG from "../assets/h2Stripes.svg";
 import companyLogos from "../assets/companies.png";
 import TabbedInterface from "../components/TabbedInterface";
 
@@ -40,7 +41,6 @@ const Home = () => {
               Contact Me
             </a>
           </div>
-          <div className="hero-graphic">{/* Add graphic here */}</div>
         </div>
       </div>
       <img
@@ -68,7 +68,15 @@ const Home = () => {
       {/* Services section */}
       <div className="services-section">
         <div className="container">
-          <h2 className="servicesSection-title">What I do</h2>
+          <div className="home-H2s">
+            {" "}
+            <img
+              src={h2stripesSVG}
+              alt="Stripes"
+              className="h2Stripes-svg"
+            />
+            <h2 className="servicesSection-title">What I do</h2>
+          </div>
           <p className="servicesSection-p">
             I'm a passionate Software Engineer and SEO Editor dedicated to
             crafting exceptional online experiences. With a fusion of creativity
