@@ -13,6 +13,10 @@ import ParkerDeweyHero from "../assets/ParkerDeweyHero.jpg";
 import CleanOriginHero from "../assets/CleanOriginHero.jpg";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Footer from "../components/Footer";
+import COLogo from "../assets/co.png";
+import PDLogo from "../assets/pd.png";
+import TPLogo from "../assets/tp.png";
 
 const Home = () => {
   const testimonials = [
@@ -197,7 +201,8 @@ const Home = () => {
                   engaging copy, providing a seamless experience for users.
                 </div>
                 <div className="work-section-content-1-card-tags">
-                  DEVELOPMENT • SEO
+                  <div className="dev-tag">DEVELOPMENT</div>•
+                  <div className="seo-tag">SEO</div>
                 </div>
               </div>
               <a
@@ -235,7 +240,8 @@ const Home = () => {
                   organic traffic.
                 </div>
                 <div className="work-section-content-2-card-tags">
-                  SEO • DESIGN
+                  <div className="seo-tag">SEO</div>•
+                  <div className="design-tag">DESIGN</div>
                 </div>
               </div>
             </div>
@@ -286,8 +292,35 @@ const Home = () => {
                   responsive websites, to crafting compelling content that ranks
                   high on search engines, I can help.
                 </div>
+                <div className="about-section-content-1-card-description">
+                  What sets me apart is my dedication to staying updated with
+                  the latest trends and technologies in the ever-evolving
+                  digital landscape. I always seek opportunities to learn and
+                  implement innovative solutions that deliver a competitive edge
+                  to my clients.
+                </div>
               </div>
               <img />
+            </div>
+            <div className="about-section-cta-text">
+              <h3>Trusted by</h3>
+            </div>
+            <div className="company-logos">
+              <img
+                src={COLogo}
+                alt="Clean Origin logo"
+                className="company-logo"
+              />
+              <img
+                src={PDLogo}
+                alt="Parker Dewey logo"
+                className="company-logo"
+              />
+              <img
+                src={TPLogo}
+                alt="The Path logo"
+                className="company-logo"
+              />
             </div>
           </div>
         </div>
@@ -377,6 +410,8 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      <Footer />
     </>
   );
 };

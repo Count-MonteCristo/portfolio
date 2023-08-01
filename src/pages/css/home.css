@@ -175,7 +175,7 @@ p {
 .work-section-content {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 50px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -229,9 +229,24 @@ p {
   color: #d4d4d4;
   font-size: 24px;
   font-weight: 700;
+  display: flex;
+  gap: 20px;
 }
 
-.work-section-cta-text {
+.design-tag {
+  color: #b7353c;
+}
+
+.dev-tag {
+  color: #d06a42;
+}
+
+.seo-tag {
+  color: #d0ad6c;
+}
+
+.work-section-cta-text,
+.about-section-cta-text {
   color: #d4d4d4;
   text-align: center;
   font-size: 32px;
@@ -302,6 +317,15 @@ p {
   color: #d4d4d4;
   font-size: 24px;
   font-weight: 400;
+}
+
+.company-logos {
+  display: flex;
+  gap: 60px;
+  max-width: 1200px;
+  justify-content: center;
+  padding-top: 10px;
+  margin-bottom: -0px;
 }
 
 /* Testimonial carousel styles */
@@ -391,4 +415,28 @@ a {
   background: #364b76;
   transform: scale(1.1);
   cursor: pointer;
+}
+
+/* Footer Section */
+
+.footer {
+  background-color: #0e192a;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left {
+  text-align: left;
+}
+
+.footer-right {
+  text-align: right;
 }
