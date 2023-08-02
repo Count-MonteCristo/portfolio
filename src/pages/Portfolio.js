@@ -1,11 +1,28 @@
 import React from "react";
+import StickyHeader from "../components/StickyHeader";
+import HeroPortfolio from "../components/HeroPortfolio";
+import Projects from "../components/Projects";
+import Footer from "../components/Footer";
 
 const Portfolio = () => {
   return (
     <>
-      {/* Content for testing purposes */}
-      <div className="tall-content">
-        <h1>End of Page</h1>
+      {/* Sticky header */}
+      <StickyHeader />
+
+      {/* Hero section */}
+      <HeroPortfolio />
+
+      {/* Content section */}
+      <div
+        className="background-color-section"
+        style={{ backgroundColor: "#0E192A" }}
+      >
+        {/* Projects section */}
+        <Projects />
+
+        {/* Footer section */}
+        <Footer />
       </div>
     </>
   );
