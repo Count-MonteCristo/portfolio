@@ -1,0 +1,43 @@
+.contact-section-heading {
+  color: #d4d4d4;
+  text-align: center;
+  font-size: 96px;
+  font-weight: 700;
+  padding-top: 90px;
+}
+
+.contact-section-text {
+  text-align: center;
+}
+
+.social-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: -30px;
+}
+
+.social-button {
+  display: flex;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.3s ease;
+  transition: transform 0.3s ease;
+}
+
+.social-label {
+  padding-left: 20px;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+.social-button:hover {
+  background: #364b76;
+  transform: scale(1.1);
+  cursor: pointer;
+}
