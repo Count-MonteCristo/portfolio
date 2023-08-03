@@ -15,11 +15,21 @@
   border: none;
   padding-left: 20px;
   padding-right: 20px;
+  transition: transform 0.3s ease;
+}
+
+.filter:hover {
+  transform: scale(1.1);
 }
 
 .filter.active {
   border-radius: 10px;
   background: #1a304f;
+  color: #f6faff;
+}
+
+.filter.active:hover {
+  transform: scale(1.1);
 }
 
 .projects-container-wrapper {
@@ -37,28 +47,75 @@
   gap: 30px;
 }
 
+.projects-container a {
+  text-decoration: none;
+  color: #d4d4d4;
+  font-size: 24px;
+  font-weight: 700;
+}
+
 .project-card {
-  width: 380px; /* Adjust the width as needed, considering 20px for the gap between columns */
-  margin-bottom: 20px; /* Add some vertical spacing between rows */
-  padding: 10px; /* Add some padding to each project card */
-  box-sizing: border-box; /* Include padding and border within the width calculation */
+  width: 380px;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .project-card img {
   width: 100%;
   height: auto;
   border-radius: 20px;
+  transition: transform 0.3s ease;
 }
 
-/* Style the project tags (optional) */
+.project-card:hover img {
+  transform: scale(1.05);
+}
+
+.project-name {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .project-tags {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  color: #1a304f;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #f6faff;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .project-tags span {
   margin-right: 5px;
   padding: 3px 8px;
   border-radius: 5px;
+}
+
+.projects-button-section {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.projects-button {
+  color: #d4d4d4;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  width: 300px;
+  height: 75px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #1a304f;
+  border: none;
+  transition: background 0.3s ease;
+  transition: transform 0.3s ease;
+}
+
+.projects-button:hover {
+  background: #364b76;
+  transform: scale(1.1);
 }
