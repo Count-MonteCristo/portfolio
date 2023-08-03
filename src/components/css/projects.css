@@ -1,0 +1,64 @@
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200;
+  padding-top: 100px;
+}
+
+.filter {
+  color: #bbb;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  background: none;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.filter.active {
+  border-radius: 10px;
+  background: #1a304f;
+}
+
+.projects-container-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
+  color: #d4d4d4;
+}
+
+.projects-container {
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.project-card {
+  width: 380px; /* Adjust the width as needed, considering 20px for the gap between columns */
+  margin-bottom: 20px; /* Add some vertical spacing between rows */
+  padding: 10px; /* Add some padding to each project card */
+  box-sizing: border-box; /* Include padding and border within the width calculation */
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+/* Style the project tags (optional) */
+.project-tags {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #1a304f;
+}
+
+.project-tags span {
+  margin-right: 5px;
+  padding: 3px 8px;
+  border-radius: 5px;
+}
