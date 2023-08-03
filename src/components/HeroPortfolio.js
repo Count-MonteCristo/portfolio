@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./css/heroPortfolio.css";
 import stripesSVG from "../assets/heroStripes.svg";
 import h2StripesSVG from "../assets/h2Stripes.svg";
+import projectsData from "./projectsData";
 
 const HeroPortfolio = () => {
   const navigate = useNavigate();
+  const [totalProjects, setTotalProjects] = useState(0);
+
+  useEffect(() => {
+    // Calculate the total number of projects from the projectsData array
+    setTotalProjects(projectsData.length);
+  }, []);
 
   const handleClick = () => {
     navigate("/");
@@ -26,7 +33,7 @@ const HeroPortfolio = () => {
             </div>
             <div className="portfolio-counter">
               <div className="successful-projects">
-                <div className="number">28</div>
+                <div className="number">{totalProjects}</div>
                 <div className="label">Successful projects</div>
               </div>
               <img
