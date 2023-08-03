@@ -258,7 +258,7 @@ const projectsData = [
     tags: ["DESIGN", "DEVELOPMENT"],
     image: moduleUpdates,
     completionDate: "2023/06/20",
-    link: "https://info.parkerdewey.com/unc/students/new",
+    link: "https://info.parkerdewey.com/utexas/students",
   },
   {
     id: 29,
