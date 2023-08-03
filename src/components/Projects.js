@@ -72,9 +72,12 @@ const Projects = () => {
               )
               .slice(0, projectsToShow)
               .map((project) => (
-                <div
-                  className="project-card"
+                <a
                   key={project.id}
+                  href={project.link} // Set the destination URL for external links
+                  target="_blank" // Open the link in a new tab
+                  rel="noopener noreferrer" // Recommended for security to prevent tab-jumping attacks
+                  className="project-card"
                 >
                   <img
                     src={project.image}
@@ -91,14 +94,22 @@ const Projects = () => {
                     ))}
                   </div>
                   <div className="project-name">{project.name}</div>
-                </div>
+                </a>
               ))}
           </div>
         </div>
+
         {/* Load More Button */}
-        {projectsToShow < sortedProjects.length && (
-          <button onClick={loadMoreProjects}>Load More</button>
-        )}
+        <div className="projects-button-section">
+          {projectsToShow < sortedProjects.length && (
+            <button
+              className="projects-button"
+              onClick={loadMoreProjects}
+            >
+              Load More
+            </button>
+          )}
+        </div>
       </div>
     </>
   );

@@ -1,130 +1,178 @@
+import moduleResponsiveness from "../assets/ParkerDeweyHero.jpg";
+import bridalStyle from "../assets/project-images/unveiling-bridal-style.jpg";
+import scs007 from "../assets/project-images/scs-007-certification.jpg";
+import moduleUpdates from "../assets/project-images/module-updates.jpg";
+import expensiveRing from "../assets/project-images/most-expensive-ring.jpg";
+import biggestDiamondShapes from "../assets/project-images/biggest-diamond-shapes.jpg";
+import meetingTheParents from "../assets/project-images/meeting-the-parents.jpg";
+import laurenSanchez from "../assets/project-images/lauren-sanchez.jpg";
+import shoppingGuideHouston from "../assets/project-images/shopping-guide-houston.jpg";
+import shoppingGuideDallas from "../assets/project-images/shopping-guide-dallas.jpg";
+import recycledGold from "../assets/project-images/recycled-gold.jpg";
+import celebrityWeddingBands from "../assets/project-images/celebrity-wedding-bands.jpg";
+import customRings from "../assets/project-images/custom-rings.jpg";
+import ringSize from "../assets/project-images/ring-size.jpg";
+import ethicalDiamonds from "../assets/project-images/ethical-diamonds.jpg.jpg";
+import earringSizeChart from "../assets/project-images/earring-size-chart.jpg";
+import westernRings from "../assets/project-images/western-rings.jpg";
+import diamondTypes from "../assets/project-images/diamond-types.jpg";
+import affordableRings from "../assets/project-images/affordableRings.jpg";
+import tips from "../assets/project-images/tips.jpg";
+import geraltEmpathy from "../assets/project-images/geralt-empathy.jpg";
+import dandelion from "../assets/project-images/dandelion.jpg";
+import bloodOrigin from "../assets/project-images/blood-origin.jpg";
+import tlou4 from "../assets/project-images/tlou-4.jpg";
+import tlou7 from "../assets/project-images/tlou-7.jpg";
+import tlouS1 from "../assets/project-images/tlou-s1.jpg";
+import ciri from "../assets/project-images/ciri.jpg";
+import caseStudies from "../assets/project-images/case-studies.jpg";
+import tpWebsite from "../assets/project-images/tp-website.jpg";
+
 const projectsData = [
   //CO Blog Posts
   {
     id: 1,
     name: "Unveiling Bridal Style: Discover the Perfect Engagement Ring for Every Bride",
     tags: ["SEO"],
-    image: "unveiling-bridal-style.jpg",
+    image: bridalStyle,
     completionDate: "2023-07-18",
+    link: "https://www.cleanorigin.com/blog/bridal-style/",
   },
   {
     id: 2,
     name: "SCS-007 Certification: For a Sustainable Diamond Industry",
     tags: ["SEO"],
-    image: "scs-007-certification.jpg",
+    image: scs007,
     completionDate: "2023-07-12",
+    link: "https://www.cleanorigin.com/blog/sustainable-diamond/",
   },
   {
     id: 3,
     name: "The Most Expensive Engagement Ring Worn by a Celebrity",
     tags: ["SEO"],
-    image: "most-expensive-ring.jpg",
+    image: expensiveRing,
     completionDate: "2023-06-20",
+    link: "https://www.cleanorigin.com/blog/most-expensive-engagement-ring/",
   },
   {
     id: 4,
     name: "What Diamond Shapes Look Biggest on an Engagement Ring",
     tags: ["SEO"],
-    image: "biggest-diamond-shapes.jpg",
+    image: biggestDiamondShapes,
     completionDate: "2023-06-14",
+    link: "https://www.cleanorigin.com/blog/what-diamond-shapes-look-biggest-on-an-engagement-ring/",
   },
   {
     id: 5,
     name: "Meeting the Parents",
     tags: ["SEO"],
-    image: "meeting-the-parents.jpg",
+    image: meetingTheParents,
     completionDate: "2023-06-07",
+    link: "https://www.cleanorigin.com/blog/meeting-the-parents/",
   },
   {
     id: 6,
     name: "The Lauren Sanchez Engagement Ring",
     tags: ["SEO"],
-    image: "lauren-sanchez.jpg",
+    image: laurenSanchez,
     completionDate: "2023-06-03",
+    link: "https://www.cleanorigin.com/blog/lauren-sanchez-engagement-ring/",
   },
   {
     id: 7,
     name: "Shopping Guide for Engagement Rings - Houston, TX",
     tags: ["SEO"],
-    image: "shopping-guide-houston.jpg",
+    image: shoppingGuideHouston,
     completionDate: "2023-05-19",
+    link: "https://www.cleanorigin.com/blog/shopping-guide-for-engagement-rings-houston-tx/",
   },
   {
     id: 8,
     name: "Shopping Guide for Engagement Rings - Dallas, TX",
     tags: ["SEO"],
-    image: "shopping-guide-dallas.jpg",
+    image: shoppingGuideDallas,
     completionDate: "2023-05-18",
+    link: "https://www.cleanorigin.com/blog/engagement-rings-dallas/",
   },
   {
     id: 9,
     name: "Recycled Gold Jewelry",
     tags: ["SEO"],
-    image: "recycled-gold.jpg",
+    image: recycledGold,
     completionDate: "2023-05-11",
+    link: "https://www.cleanorigin.com/blog/recycled-gold-jewelry/",
   },
   {
     id: 10,
     name: "Celebrity Men's Wedding Bands",
     tags: ["SEO"],
-    image: "celebrity-wedding-bands.jpg",
+    image: celebrityWeddingBands,
     completionDate: "2023-05-10",
+    link: "https://www.cleanorigin.com/blog/celebrity-mens-wedding-bands/",
   },
   {
     id: 11,
     name: "Custom Engagement Rings at Clean Origin",
     tags: ["SEO"],
-    image: "custom-rings.jpg",
+    image: customRings,
     completionDate: "2023-05-04",
+    link: "https://www.cleanorigin.com/blog/custom-engagement-rings-at-clean-origin/",
   },
   {
     id: 12,
     name: "How to Measure Ring Size: A Comprehensive Guide",
     tags: ["DESIGN", "SEO"],
-    image: "ring-size.jpg",
+    image: ringSize,
     completionDate: "2023-05-03",
+    link: "https://www.cleanorigin.com/blog/how-to-measure-ring-size-a-comprehensive-guide/",
   },
   {
     id: 13,
     name: "Keep Your Conscience Clean With Ethical Diamonds",
     tags: ["SEO"],
-    image: "ethical-diamonds.jpg",
+    image: ethicalDiamonds,
     completionDate: "2023-04-20",
+    link: "https://www.cleanorigin.com/blog/keep-your-conscience-clean-with-ethical-diamonds/",
   },
   {
     id: 14,
     name: "Find the Perfect Fit With a Stud Earring Size Chart",
     tags: ["SEO"],
-    image: "earring-size-chart.jpg",
+    image: earringSizeChart,
     completionDate: "2023-04-14",
+    link: "https://www.cleanorigin.com/blog/stud-earring-size-chart/",
   },
   {
     id: 15,
     name: "Western Wedding Rings: The Perfect Blend of Tradition and Style",
     tags: ["SEO"],
-    image: "western-rings.jpg",
+    image: westernRings,
     completionDate: "2023-04-12",
+    link: "https://www.cleanorigin.com/blog/western-wedding-rings/",
   },
   {
     id: 16,
     name: "Types of Diamonds",
     tags: ["SEO"],
-    image: "diamond-types.jpg",
+    image: diamondTypes,
     completionDate: "2023-02-08",
+    link: "https://www.cleanorigin.com/blog/types-of-diamonds/",
   },
   {
     id: 17,
     name: "Engagement Rings Under $2,000",
     tags: ["SEO"],
-    image: "2000-rings.jpg",
+    image: affordableRings,
     completionDate: "2023-02-06",
+    link: "https://www.cleanorigin.com/blog/2000-engagement-ring/",
   },
   {
     id: 18,
     name: "Engagement Rings for Women: 9 Engagement Ring Shopping Tips",
     tags: ["SEO"],
-    image: "9-tips.jpg",
+    image: tips,
     completionDate: "2023/01/12",
+    link: "https://www.cleanorigin.com/blog/engagement-rings-for-women/",
   },
 
   //TP Articles
@@ -132,50 +180,57 @@ const projectsData = [
     id: 19,
     name: "A Weapon Geralt Wields Sharper Than Steel or Silver",
     tags: ["SEO"],
-    image: "geralt-empathy.jpg",
+    image: geraltEmpathy,
     completionDate: "2022/10/19",
+    link: "https://thepathwitcher.blog/2022/10/19/geralts-main-strength-empathy/",
   },
   {
     id: 20,
     name: "The Bard's Largest Contribution Isn't His Music",
     tags: ["SEO"],
-    image: "dandelion.jpg",
+    image: dandelion,
     completionDate: "2022/12/10",
+    link: "https://thepathwitcher.blog/2022/12/10/the-bards-largest-contribution-isnt-his-music/",
   },
   {
     id: 21,
     name: "The Witcher: Blood Origin Review - A Story Meant for Everyone That Satisfies No One",
     tags: ["SEO"],
-    image: "blood-origin.jpg",
+    image: bloodOrigin,
     completionDate: "2023/01/08",
+    link: "https://thepathwitcher.blog/2023/01/08/the-witcher-blood-origin-review-a-story-meant-for-everyone-that-satisfies-no-one/",
   },
   {
     id: 22,
     name: "The Dangers of Success: The Last of Us, Episode 4 Review",
     tags: ["SEO"],
-    image: "tlou-4.jpg",
+    image: tlou4,
     completionDate: "2023/02/10",
+    link: "https://thepathwitcher.blog/2023/02/10/the-dangers-of-success-the-last-of-us-episode-4-review/",
   },
   {
     id: 23,
     name: "Who Are We but Our Memories? A Dive Into Ellie's Past: The Last of Us Episode 7 Review",
     tags: ["SEO"],
-    image: "tlou-7.jpg",
+    image: tlou7,
     completionDate: "2023/03/02",
+    link: "https://thepathwitcher.blog/2023/03/02/who-are-we-but-our-memories-a-dive-into-ellies-past-the-last-of-us-episode-7-review/",
   },
   {
     id: 24,
     name: "The Last of Us Season 1 Overall Review - The Best Live-Action Video Game Adaptation",
     tags: ["SEO"],
-    image: "tlou-s1.jpg",
+    image: tlouS1,
     completionDate: "2023/03/19",
+    link: "https://thepathwitcher.blog/2023/03/19/title-the-last-of-us-season-1-overall-review-the-best-live-action-video-game-adaptation/",
   },
   {
     id: 25,
     name: "The Witcher's Story Is Not Geralt's Alone",
     tags: ["SEO"],
-    image: "ciri.jpg",
+    image: ciri,
     completionDate: "2023/03/24",
+    link: "https://thepathwitcher.blog/2023/03/24/the-witchers-story-is-not-geralts-alone/",
   },
 
   // Marketing
@@ -183,8 +238,9 @@ const projectsData = [
     id: 26,
     name: "Sales Emails and Case Studies Content Creation",
     tags: ["SEO"],
-    image: "case-studies.jpg",
+    image: caseStudies,
     completionDate: "2023/03/31",
+    link: "https://www.parkerdewey.com/blog",
   },
 
   // Websites
@@ -192,22 +248,25 @@ const projectsData = [
     id: 27,
     name: "The Path Website Redesign",
     tags: ["DESIGN", "DEVELOPMENT", "SEO"],
-    image: "tp-website.jpg",
+    image: tpWebsite,
     completionDate: "2023/04/06",
+    link: "https://thepathwitcher.blog/",
   },
   {
     id: 28,
-    name: "HubSpot Landing Page Code Updates",
+    name: "Landing Page Code Updates",
     tags: ["DESIGN", "DEVELOPMENT"],
-    image: "module-updates.jpg",
+    image: moduleUpdates,
     completionDate: "2023/06/20",
+    link: "https://info.parkerdewey.com/utexas/students",
   },
   {
     id: 29,
     name: "Website Module Responsiveness",
     tags: ["DEVELOPMENT"],
-    image: "module-responsiveness.jpg",
+    image: moduleResponsiveness,
     completionDate: "2023/07/28",
+    link: "https://www.parkerdewey.com/",
   },
 ];
 
