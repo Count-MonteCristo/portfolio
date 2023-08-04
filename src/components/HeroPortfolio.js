@@ -1,22 +1,16 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 import "./css/heroPortfolio.css";
 import stripesSVG from "../assets/heroStripes.svg";
 import h2StripesSVG from "../assets/h2Stripes.svg";
 import projectsData from "./projectsData";
 
 const HeroPortfolio = () => {
-  const navigate = useNavigate();
   const [totalProjects, setTotalProjects] = useState(0);
 
   useEffect(() => {
     // Calculate the total number of projects from the projectsData array
     setTotalProjects(projectsData.length);
   }, []);
-
-  const handleClick = () => {
-    navigate("/");
-  };
 
   return (
     <>
@@ -48,11 +42,8 @@ const HeroPortfolio = () => {
             </div>
           </div>
           <div className="hero-cta-button">
-            <button
-              onClick={handleClick}
-              className="cta-button-hero"
-            >
-              Let's work together
+            <button className="cta-button-hero">
+              <a href="/">Let's Work Together</a>
             </button>
           </div>
         </div>

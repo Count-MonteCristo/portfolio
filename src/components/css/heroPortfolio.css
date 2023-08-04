@@ -73,3 +73,7 @@
 .cta-button-hero:hover {
   transform: scale(1.1);
 }
+
+.cta-button-hero a {
+  color: #282825;
+}
