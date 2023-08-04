@@ -9,7 +9,7 @@ const Work = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/portfolio");
+    navigate("portfolio");
   };
 
   return (
@@ -94,11 +94,8 @@ const Work = () => {
               </h3>
             </div>
             <div className="work-section-cta-button">
-              <button
-                onClick={handleClick}
-                className="cta-button"
-              >
-                Explore Portfolio
+              <button className="cta-button">
+                <a href="/portfolio">Explore Portfolio</a>
               </button>
             </div>
           </div>

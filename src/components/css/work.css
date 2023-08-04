@@ -106,3 +106,7 @@
   background: #364b76;
   transform: scale(1.1);
 }
+
+.cta-button a {
+  color: #d4d4d4;
+}
