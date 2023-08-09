@@ -30,3 +30,11 @@
 .sticky-header a:hover {
   color: #b7353c;
 }
+
+.nav-link {
+  transition: transform 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+}

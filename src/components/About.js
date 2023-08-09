@@ -30,11 +30,6 @@ const About = () => {
                 Antonio, Texas
               </div>
               <div className="about-section-content-1-card-description">
-                From designing intuitive user interfaces and developing
-                responsive websites, to crafting compelling content that ranks
-                high on search engines, I can help.
-              </div>
-              <div className="about-section-content-1-card-description">
                 What sets me apart is my dedication to staying updated with the
                 latest trends and technologies in the ever-evolving digital
                 landscape. I always seek opportunities to learn and implement

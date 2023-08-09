@@ -6,19 +6,44 @@ const StickyHeader = () => {
     <nav className="sticky-header">
       <ul>
         <li>
-          <a href="/#Services">Services</a>
+          <a
+            className="nav-link"
+            href="/#Services"
+          >
+            Services
+          </a>
         </li>
         <li>
-          <a href="/#Work">Work</a>
+          <a
+            className="nav-link"
+            href="/#Work"
+          >
+            Work
+          </a>
         </li>
         <li>
-          <a href="/#About">About</a>
+          <a
+            className="nav-link"
+            href="/#About"
+          >
+            About
+          </a>
         </li>
         <li>
-          <a href="/#Testimonials">Testimonials</a>
+          <a
+            className="nav-link"
+            href="/#Testimonials"
+          >
+            Testimonials
+          </a>
         </li>
         <li>
-          <a href="/#Contact">Contact</a>
+          <a
+            className="nav-link"
+            href="/#Contact"
+          >
+            Contact
+          </a>
         </li>
       </ul>
     </nav>
