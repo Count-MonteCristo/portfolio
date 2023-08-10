@@ -17,8 +17,8 @@ const Contact = () => {
         <p className="contact-section-text">
           If you're ready to take your online presence to the next level, I'm
           here to make it happen. Whether you need a compelling website, a
-          powerful web application, or an SEO strategy that drives growth, I've
-          got you covered.
+          powerful web application, or SEO content that drives growth, I've got
+          you covered.
         </p>
 
         <div className="social-buttons">
