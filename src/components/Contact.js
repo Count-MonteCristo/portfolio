@@ -24,8 +24,10 @@ const Contact = () => {
         <div className="social-buttons">
           <a href="mailto:luis0425navarro@gmail.com">
             <button className="social-button">
-              <BiMailSend size={30} />
-              <div className="social-label">Mail</div>
+              <div className="social-button-content">
+                <BiMailSend size={30} />
+                <div className="social-label">Email</div>
+              </div>
             </button>
           </a>
           <a
@@ -34,8 +36,10 @@ const Contact = () => {
             rel="noopener noreferrer"
           >
             <button className="social-button">
-              <BiLogoLinkedin size={30} />
-              <div className="social-label">LinkedIn</div>
+              <div className="social-button-content">
+                <BiLogoLinkedin size={30} />
+                <div className="social-label">LinkedIn</div>
+              </div>
             </button>
           </a>
           <a
@@ -44,8 +48,10 @@ const Contact = () => {
             rel="noopener noreferrer"
           >
             <button className="social-button">
-              <BsGithub size={30} />
-              <div className="social-label">GitHub</div>
+              <div className="social-button-content">
+                <BsGithub size={30} />
+                <div className="social-label">GitHub</div>
+              </div>
             </button>
           </a>
         </div>

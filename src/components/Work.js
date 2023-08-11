@@ -1,17 +1,10 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import "./css/work.css";
 import h2StripesSVG from "../assets/h2Stripes.svg";
 import ParkerDeweyHero from "../assets/ParkerDeweyHero.jpg";
 import CleanOriginHero from "../assets/CleanOriginHero.jpg";
 
 const Work = () => {
-  const navigate = useNavigate();
-
-  const handleClick = () => {
-    navigate("portfolio");
-  };
-
   return (
     <>
       <div
@@ -94,9 +87,9 @@ const Work = () => {
               </h3>
             </div>
             <div className="work-section-cta-button">
-              <button className="cta-button">
-                <a href="/portfolio">Explore Portfolio</a>
-              </button>
+              <a href="/portfolio">
+                <button className="cta-button">Explore Portfolio</button>
+              </a>
             </div>
           </div>
         </div>

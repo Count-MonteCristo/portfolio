@@ -42,9 +42,9 @@ const HeroPortfolio = () => {
             </div>
           </div>
           <div className="hero-cta-button">
-            <button className="cta-button-hero">
-              <a href="/">Let's Work Together</a>
-            </button>
+            <a href="/">
+              <button className="cta-button-hero">Let's Work Together</button>
+            </a>
           </div>
         </div>
       </div>
