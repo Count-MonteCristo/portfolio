@@ -27,6 +27,13 @@
   transition: transform 0.3s ease;
 }
 
+.social-button-content {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 150px;
+}
+
 .social-label {
   padding-left: 20px;
   text-align: left;
