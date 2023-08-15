@@ -16,7 +16,7 @@ const HeroPortfolio = () => {
     <>
       <div
         id="home"
-        className="hero"
+        className="hero fade-in"
       >
         <div className="container">
           <div className="portfolio-heading">Portfolio</div>
