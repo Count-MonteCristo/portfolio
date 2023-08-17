@@ -14,7 +14,7 @@
 
 .about-section-content-1-card {
   width: 100%;
-  max-width: 720px;
+  max-width: 550px;
   border-radius: 10px;
   background: #1a304f;
   display: flex;
@@ -42,4 +42,9 @@
   justify-content: center;
   padding-top: 10px;
   margin-bottom: -0px;
+}
+
+.company-logo {
+  width: auto;
+  height: 70px;
 }

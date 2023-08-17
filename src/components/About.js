@@ -4,6 +4,7 @@ import h2StripesSVG from "../assets/h2Stripes.svg";
 import COLogo from "../assets/co.png";
 import PDLogo from "../assets/pd.png";
 import TPLogo from "../assets/tp.png";
+import AMSALogo from "../assets/a&m.png";
 
 const About = () => {
   return (
@@ -30,11 +31,13 @@ const About = () => {
                 Antonio, Texas
               </div>
               <div className="about-section-content-1-card-description">
-                What sets me apart is my dedication to staying updated with the
-                latest trends and technologies in the ever-evolving digital
-                landscape. I always seek opportunities to learn and implement
-                innovative solutions that deliver a competitive edge to my
-                clients.
+                I help craft websites that engage users and connect brands with
+                their audiences in a meaningful way.
+                <br />
+                <br />
+                In my free time, you'll find me outdoors braving the hot Texas
+                weather, going to concerts of all music genres, and spending
+                time with my loved ones.
               </div>
             </div>
             <img />
@@ -56,6 +59,11 @@ const About = () => {
             <img
               src={TPLogo}
               alt="The Path logo"
+              className="company-logo"
+            />
+            <img
+              src={AMSALogo}
+              alt="Texas A&M-SA logo"
               className="company-logo"
             />
           </div>
