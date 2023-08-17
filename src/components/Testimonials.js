@@ -8,13 +8,20 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
+      name: "Shannon H.",
+      company: "Clean Origin",
+      testimonial:
+        "Luis has leveraged his exceptional writing and optimization skills to significantly impact our on-page SEO during his time at Clean Origin. By crafting compelling, keyword-rich content tailored to people, Luis crafts search engine-optimized content that resonates with our target audience. He seamlessly incorporated these into on-page copy and blog posts, ensuring content was discoverable and engaging. With his proven expertise in optimizing content for search visibility and user experience, I highly recommend Luis for any role focused on content creation and SEO.",
+    },
+    {
+      id: 2,
       name: "Eric R.",
       company: "Texas A&M University-San Antonio",
       testimonial:
         "Luis would be an exceptional addition to any team ... Luis was always ready to meet any challenge that was presented to him and exceeded expectations. Our entire team was impressed by his ability to manage various projects and meet deadlines. I highly recommend Luis and know he will add value to your team.",
     },
     {
-      id: 2,
+      id: 3,
       name: "Gus Z.",
       company: "Parker Dewey",
       testimonial:

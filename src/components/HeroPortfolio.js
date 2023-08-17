@@ -27,7 +27,7 @@ const HeroPortfolio = () => {
             </div>
             <div className="portfolio-counter">
               <div className="successful-projects">
-                <div className="number">{totalProjects}</div>
+                <div className="number">{totalProjects}+</div>
                 <div className="label">Successful projects</div>
               </div>
               <img
