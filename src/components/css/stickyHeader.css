@@ -6,6 +6,10 @@
   padding-top: 20px;
   padding-bottom: 20px;
   z-index: 999;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
 }
 
 .sticky-header ul {
@@ -37,4 +41,32 @@
 
 .nav-link:hover {
   transform: scale(1.1);
+}
+
+.header-element {
+  width: 150px;
+}
+
+.cta-button-header {
+  color: #fefefe;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #b7353c;
+  border: none;
+  width: 150px;
+  height: 40px;
+  transition: background 0.3s ease;
+  transition: transform 0.3s ease;
+}
+
+.cta-button-header:hover {
+  background: #9c2c32;
+  transform: scale(1.1);
+}
+
+.cta-button-header a {
+  color: #d4d4d4;
 }

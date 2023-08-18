@@ -27,6 +27,9 @@ import tlouS1 from "../assets/project-images/tlou-s1.jpg";
 import ciri from "../assets/project-images/ciri.jpg";
 import caseStudies from "../assets/project-images/case-studies.jpg";
 import tpWebsite from "../assets/project-images/tp-website.jpg";
+import cssSupport from "../assets/project-images/css-support.jpg";
+import lwEarrings from "../assets/project-images/lwEarrings.jpg";
+import oldMine from "../assets/project-images/oldMine.jpg";
 
 const projectsData = [
   //CO Blog Posts
@@ -174,6 +177,22 @@ const projectsData = [
     completionDate: "2023/01/12",
     link: "https://www.cleanorigin.com/blog/engagement-rings-for-women/",
   },
+  {
+    id: 31,
+    name: "Light Weight Earrings: Elevating Style and Comfort",
+    tags: ["SEO"],
+    image: lwEarrings,
+    completionDate: "2023/08/16",
+    link: "https://www.cleanorigin.com/blog/light-weight-earrings-elevating-style-and-comfort/",
+  },
+  {
+    id: 32,
+    name: "Old Mine Cut Diamond vs European Cut: The Timeless Charm of Antique Diamond Cuts",
+    tags: ["SEO"],
+    image: oldMine,
+    completionDate: "2023/08/17",
+    link: "https://www.cleanorigin.com/blog/old-mine-cut-diamond-vs-european-cut/",
+  },
 
   //TP Articles
   {
@@ -267,6 +286,14 @@ const projectsData = [
     image: moduleResponsiveness,
     completionDate: "2023/07/28",
     link: "https://www.parkerdewey.com/",
+  },
+  {
+    id: 30,
+    name: "CSS Support",
+    tags: ["DEVELOPMENT"],
+    image: cssSupport,
+    completionDate: "2023/08/08",
+    link: "https://info.parkerdewey.com/trailhead/companies",
   },
 ];
 

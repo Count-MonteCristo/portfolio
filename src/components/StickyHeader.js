@@ -4,6 +4,10 @@ import "./css/stickyHeader.css";
 const StickyHeader = () => {
   return (
     <nav className="sticky-header">
+      <div className="header-element">
+        <img />
+        LOGO
+      </div>
       <div>
         <ul>
           <li>
@@ -47,6 +51,11 @@ const StickyHeader = () => {
             </a>
           </li>
         </ul>
+      </div>
+      <div className="header-element">
+        <a href="/portfolio">
+          <button className="cta-button-header">Portfolio</button>
+        </a>
       </div>
     </nav>
   );
