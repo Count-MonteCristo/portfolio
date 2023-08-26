@@ -55,18 +55,23 @@
 }
 
 /* Laptop */
-@media (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1440px) {
   .hero {
     min-height: 600px;
-  }
-
-  .hero-heading {
-    font-size: 68px;
   }
 }
 
 /* Tablet */
 @media (max-width: 768px) {
+  .hero {
+    min-height: 400px;
+  }
+
+  .hero-text {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
   .hero-heading {
     font-size: 48px;
   }
