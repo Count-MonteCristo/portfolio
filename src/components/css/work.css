@@ -123,3 +123,69 @@
 .cta-button a {
   color: #d4d4d4;
 }
+
+/* Tablet */
+@media (max-width: 768px) {
+  .project-image {
+    max-width: 350px;
+    height: 280px auto;
+  }
+
+  .work-section-content-1-card,
+  .work-section-content-2-card {
+    max-height: 210px;
+    gap: 10px;
+  }
+  .work-section-content {
+    gap: 25px;
+  }
+
+  .work-section-content-1,
+  .work-section-content-2 {
+    gap: 25px;
+  }
+
+  .work-section-content-1-card-title,
+  .work-section-content-2-card-title {
+    font-size: 20px;
+  }
+
+  .work-section-content-1-card-description,
+  .work-section-content-2-card-description {
+    font-size: 16px;
+  }
+
+  .work-section-content-1-card-tags,
+  .work-section-content-2-card-tags {
+    font-size: 14px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 425px) {
+  .work-section-content-1 {
+    flex-direction: column;
+  }
+
+  .work-section-content-2 {
+    flex-direction: column-reverse;
+  }
+
+  .work-section-content-2-card-title,
+  .work-section-content-2-card-description {
+    text-align: left;
+  }
+
+  .work-section-content-2-card-tags {
+    justify-content: flex-start;
+  }
+
+  .project-image {
+    max-width: 385px;
+  }
+
+  .work-section-content-1-card-title,
+  .work-section-content-2-card-title {
+    font-size: 24px;
+  }
+}

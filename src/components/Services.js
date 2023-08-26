@@ -31,6 +31,7 @@ const Services = () => {
           <div className="services-section-card-design">
             <div className="services-section-content">
               <MdOutlineDesignServices
+                className="icons-services"
                 size={80}
                 color={"#b7353c"}
               />
@@ -44,6 +45,7 @@ const Services = () => {
           <div className="services-section-card-development">
             <div className="services-section-content">
               <HiCode
+                className="icons-services"
                 size={80}
                 color={"#D06A42"}
               />
@@ -57,6 +59,7 @@ const Services = () => {
           <div className="services-section-card-seo">
             <div className="services-section-content">
               <MdSearch
+                className="icons-services"
                 size={80}
                 color={"#D0AD6C"}
               />
