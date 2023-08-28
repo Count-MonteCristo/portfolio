@@ -14,7 +14,7 @@
 
 .about-section-content-1-card {
   width: 100%;
-  max-width: 550px;
+  max-width: 600px;
   border-radius: 10px;
   background: #1a304f;
   display: flex;
@@ -37,6 +37,7 @@
 
 .company-logos {
   display: flex;
+  flex-wrap: wrap;
   gap: 60px;
   max-width: 1200px;
   justify-content: center;
@@ -45,6 +46,48 @@
 }
 
 .company-logo {
-  width: auto;
-  height: 70px;
+  max-width: 100%;
+  height: auto;
+  margin: 5px;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .about-section-content-1-card-title {
+    font-size: 20px;
+  }
+
+  .about-section-content-1-card-description {
+    font-size: 16px;
+  }
+
+  .about-section-content-1-card {
+    max-width: 400px;
+  }
+
+  .company-logos {
+    gap: 30px;
+    max-width: 800px;
+  }
+
+  .company-logo {
+    width: 150px;
+    height: auto;
+  }
+}
+
+/* Mobile */
+@media (max-width: 425px) {
+  .about-section-content-1 {
+    max-width: 380px;
+    display: block;
+  }
+
+  .about-section-content-1-card {
+    max-width: 380px;
+  }
+
+  .company-logos {
+    max-width: 400px;
+  }
 }

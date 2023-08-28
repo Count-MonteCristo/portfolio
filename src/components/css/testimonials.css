@@ -2,12 +2,18 @@
   padding: 50px 0;
 }
 
+.carousel-root {
+  max-width: 95%;
+  align-self: center;
+}
+
 .testimonial-item {
   display: flex;
   flex-direction: column;
   text-align: center;
+  width: 90%;
   max-width: 1100px;
-  height: 400px;
+  height: 100%;
   margin: 0 auto;
   border-radius: 10px;
   background: #1a304f;
@@ -39,4 +45,32 @@
 
 .control-dots {
   display: none;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .testimonials-section {
+    padding: 30px 0;
+  }
+
+  .testimonial-text {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .testimonial-name {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+
+  .testimonial-company {
+    font-size: 18px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+  .testimonials-section {
+    padding: 30px 0;
+  }
 }
