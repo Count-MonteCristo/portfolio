@@ -43,7 +43,7 @@
 }
 
 /* Tablet */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .services-section-cards {
     gap: 35px;
   }
@@ -69,7 +69,7 @@
 }
 
 /* Mobile */
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .services-section-cards {
     flex-direction: column;
     align-items: center;

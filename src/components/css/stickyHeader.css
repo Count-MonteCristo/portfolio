@@ -8,7 +8,7 @@
   z-index: 999;
   display: flex;
   gap: 100px;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -37,10 +37,6 @@
 
 .nav-link {
   transition: transform 0.2s ease-in-out;
-}
-
-.nav-link:hover {
-  transform: scale(1.1);
 }
 
 .header-element {

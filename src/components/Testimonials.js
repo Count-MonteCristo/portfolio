@@ -22,7 +22,7 @@ const Testimonials = () => {
     },
     {
       id: 3,
-      name: "Gus Z.",
+      name: "Gus A.",
       company: "Parker Dewey",
       testimonial:
         "Luis is a dedicated, communicative, self-motivated, and courteous professional. Working with him was a pleasure, and I have no doubt he'd be an asset to any organization.",

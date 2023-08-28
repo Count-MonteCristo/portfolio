@@ -71,3 +71,27 @@ p {
   transform: translateY(0);
   opacity: 1;
 }
+
+/* Tablet */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 48px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .content-section-text,
+  .contact-section-text {
+    font-size: 20px;
+    padding-bottom: 60px;
+  }
+
+  .services-section-heading,
+  .work-section-heading,
+  .about-section-heading,
+  .testimonials-section-heading {
+    padding-top: 60px;
+  }
+}

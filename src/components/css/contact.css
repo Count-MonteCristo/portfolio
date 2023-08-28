@@ -8,6 +8,7 @@
 
 .contact-section-text {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .social-buttons {
@@ -47,4 +48,35 @@ a {
   background: #364b76;
   transform: scale(1.1);
   cursor: pointer;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .contact-section-heading {
+    padding-top: 60px;
+  }
+
+  .contact-section-heading h2 {
+    font-size: 48px;
+  }
+
+  .contact-section-text {
+    font-size: 20px;
+  }
+
+  .social-button {
+    width: 300px;
+  }
+
+  .social-label {
+    font-size: 18px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 425px) {
+  .contact-section-heading h2 {
+    max-width: 400px;
+    text-align: center;
+  }
 }
