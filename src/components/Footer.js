@@ -1,5 +1,6 @@
 import React from "react";
 import "./css/footer.css";
+import Logo from "../assets/Logo.png";
 
 const Footer = () => {
   return (
@@ -10,6 +11,13 @@ const Footer = () => {
             <p>
               © {new Date().getFullYear()} Luis Navarro. All rights reserved.
             </p>
+          </div>
+          <div className="footer-center">
+            <img
+              src={Logo}
+              alt="logo"
+              className="logo"
+            />
           </div>
           <div className="footer-right">
             <p>Designed & built by Luis Navarro</p>

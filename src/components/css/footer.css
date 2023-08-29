@@ -12,10 +12,24 @@
   align-items: center;
 }
 
+.footer-center {
+  width: 33%;
+}
+
 .footer-left {
   text-align: left;
+  width: 33%;
 }
 
 .footer-right {
   text-align: right;
+  width: 33%;
+}
+
+/* Mobile */
+@media (max-width: 425px) {
+  .footer-left,
+  .footer-right {
+    font-size: 12px;
+  }
 }

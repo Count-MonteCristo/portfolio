@@ -30,6 +30,7 @@ import tpWebsite from "../assets/project-images/tp-website.jpg";
 import cssSupport from "../assets/project-images/css-support.jpg";
 import lwEarrings from "../assets/project-images/lwEarrings.jpg";
 import oldMine from "../assets/project-images/oldMine.jpg";
+import peerPlaceWebsite from "../assets/peer-place-hero.jpg";
 
 const projectsData = [
   //CO Blog Posts
@@ -294,6 +295,14 @@ const projectsData = [
     image: cssSupport,
     completionDate: "2023/08/08",
     link: "https://info.parkerdewey.com/trailhead/companies",
+  },
+  {
+    id: 33,
+    name: "Inaugural Non-Profit Website",
+    tags: ["DESIGN", "DEVELOPMENT", "SEO"],
+    image: peerPlaceWebsite,
+    completionDate: "2023/08/25",
+    link: "https://www.apeerplace.com/",
   },
 ];
 

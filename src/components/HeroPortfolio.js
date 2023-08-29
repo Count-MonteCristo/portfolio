@@ -22,8 +22,8 @@ const HeroPortfolio = () => {
           <div className="portfolio-heading">Portfolio</div>
           <div className="portfolio-description">
             <div className="portfolio-text">
-              See how I have helped businesses transform their digital presence
-              and achieve their goals.
+              See how I have helped others transform their digital presence and
+              achieve their goals.
             </div>
             <div className="portfolio-counter">
               <div className="successful-projects">
@@ -42,7 +42,7 @@ const HeroPortfolio = () => {
             </div>
           </div>
           <div className="hero-cta-button">
-            <a href="/">
+            <a href="/#Contact">
               <button className="cta-button-hero">Let's Work Together</button>
             </a>
           </div>

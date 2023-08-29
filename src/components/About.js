@@ -5,6 +5,8 @@ import COLogo from "../assets/co.png";
 import PDLogo from "../assets/pd.png";
 import TPLogo from "../assets/tp.png";
 import AMSALogo from "../assets/a&m.png";
+import PeerLogo from "../assets/peer-place-logo.png";
+import ProfilePicture from "../assets/profile-picture.jpg";
 
 const About = () => {
   return (
@@ -40,7 +42,11 @@ const About = () => {
                 time with my loved ones.
               </div>
             </div>
-            <img />
+            <img
+              src={ProfilePicture}
+              alt="profile"
+              className="profile"
+            />
           </div>
           <div className="about-section-cta-text">
             <h3>Trusted by</h3>
@@ -57,13 +63,18 @@ const About = () => {
               className="company-logo"
             />
             <img
+              src={AMSALogo}
+              alt="Texas A&M-SA logo"
+              className="company-logo"
+            />
+            <img
               src={TPLogo}
               alt="The Path logo"
               className="company-logo"
             />
             <img
-              src={AMSALogo}
-              alt="Texas A&M-SA logo"
+              src={PeerLogo}
+              alt="A Peer Place logo"
               className="company-logo"
             />
           </div>

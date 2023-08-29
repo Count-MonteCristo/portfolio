@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./css/stickyHeader.css";
 import HamburgerMenu from "./HamburgerMenu";
+import Logo from "../assets/Logo.png";
 
 const StickyHeader = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -25,10 +26,13 @@ const StickyHeader = () => {
   return (
     <nav className="sticky-header">
       <div className="header-element">
-        <img
-          alt="Logo"
-          src="/path/to/logo.png"
-        />
+        <a href="/">
+          <img
+            src={Logo}
+            alt="logo"
+            className="logo"
+          />
+        </a>
       </div>
       {windowWidth >= 900 ? (
         <div>
