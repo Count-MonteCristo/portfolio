@@ -118,3 +118,39 @@
   background: #364b76;
   transform: scale(1.1);
 }
+
+/* Tablet */
+@media (max-width: 900px) {
+  .project-card {
+    width: 300px;
+  }
+
+  .projects-container {
+    justify-content: center;
+  }
+}
+
+/* Mobile */
+@media (max-width: 425px) {
+  .project-card {
+    width: 380px;
+  }
+
+  .filters {
+    gap: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .filter {
+    font-size: 18px;
+  }
+
+  .projects-container-wrapper {
+    padding-top: 45px;
+  }
+
+  .projects-button-section {
+    margin-bottom: -30px;
+  }
+}

@@ -3,12 +3,12 @@ import "./css/projects.css";
 import projectsData from "./projectsData";
 
 const Projects = () => {
-  const [projectsToShow, setProjectsToShow] = useState(9);
+  const [projectsToShow, setProjectsToShow] = useState(6);
   const [selectedFilter, setSelectedFilter] = useState("");
 
   // Function to load more projects when the "Load More" button is clicked
   const loadMoreProjects = () => {
-    setProjectsToShow((prevProjectsToShow) => prevProjectsToShow + 9);
+    setProjectsToShow((prevProjectsToShow) => prevProjectsToShow + 6);
   };
 
   // Sort the projects by completionDate in descending order (latest first)

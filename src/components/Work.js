@@ -3,6 +3,7 @@ import "./css/work.css";
 import h2StripesSVG from "../assets/h2Stripes.svg";
 import ParkerDeweyHero from "../assets/ParkerDeweyHero.jpg";
 import CleanOriginHero from "../assets/CleanOriginHero.jpg";
+import PeerPlaceHero from "../assets/peer-place-hero.jpg";
 
 const Work = () => {
   return (
@@ -77,6 +78,35 @@ const Work = () => {
                 <div className="design-tag">DESIGN</div>
               </div>
             </div>
+          </div>
+
+          <div className="work-section-content-1">
+            <div className="work-section-content-1-card">
+              <div className="work-section-content-1-card-title">
+                Inaugural Non-Profit Website
+              </div>
+              <div className="work-section-content-1-card-description">
+                Collaborated with A Peer Place to establish a meaningful online
+                presence and effectively communicate their mission and
+                initiatives.
+              </div>
+              <div className="work-section-content-1-card-tags">
+                <div className="design-tag">DESIGN</div>•
+                <div className="dev-tag">DEVELOPMENT</div>•
+                <div className="seo-tag">SEO</div>
+              </div>
+            </div>
+            <a
+              href="https://www.apeerplace.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={PeerPlaceHero}
+                alt="Peer Place Website"
+                className="project-image"
+              />
+            </a>
           </div>
 
           <div className="work-section-cta">
