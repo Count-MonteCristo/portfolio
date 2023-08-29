@@ -3,8 +3,11 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
+import { inject } from "@vercel/analytics";
 
 const App = () => {
+  inject();
+
   return (
     <Router>
       <Routes>
