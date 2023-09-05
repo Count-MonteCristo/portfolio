@@ -13,7 +13,7 @@ const Home = () => {
   useEffect(() => {
     const handleScroll = () => {
       const elementsToFadeIn = document.querySelectorAll(
-        ".services-section-heading, .content-section-text, .services-section-card-design, .services-section-card-development, .services-section-card-seo, .work-section-heading, .work-section-content, .work-section-cta, .about-section-heading, .about-section-content, .about-section-cta-text, .company-logos, .testimonials-section-heading, .testimonial-item, .contact-section-heading, .contact-section-text, .social-buttons"
+        ".services-section-heading, .content-section-text, .services-section-card-design, .services-section-card-development, .services-section-card-seo, .work-section-heading, .work-section-content, .work-section-cta, .about-section-heading, .about-section-content, .about-section-cta-text, .company-logos, .testimonials-section-heading, .testimonial-item, .contact-section-heading, .contact-section-text, .social-buttons, .about-section-cta-text-2"
       );
 
       elementsToFadeIn.forEach((element) => {

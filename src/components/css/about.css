@@ -11,11 +11,12 @@
   align-items: center;
   justify-content: space-between;
   gap: 50px;
+  margin-top: -40px;
 }
 
 .about-section-content-1-card {
   width: 100%;
-  max-width: 700px;
+  max-width: 710px;
   border-radius: 10px;
   background: #1a304f;
   display: flex;
@@ -34,6 +35,12 @@
   color: #d4d4d4;
   font-size: 24px;
   font-weight: 400;
+}
+
+.about-section-cta-text-2 {
+  color: #d4d4d4;
+  text-align: center;
+  padding-top: 20px;
 }
 
 .company-logos {
@@ -56,8 +63,6 @@
   width: 380px;
   height: auto;
   border-radius: 10px;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
 }
 
 /* Tablet */
