@@ -31,6 +31,7 @@ import cssSupport from "../assets/project-images/css-support.jpg";
 import lwEarrings from "../assets/project-images/lwEarrings.jpg";
 import oldMine from "../assets/project-images/oldMine.jpg";
 import peerPlaceWebsite from "../assets/peer-place-hero.jpg";
+import hpht from "../assets/project-images/hpht.jpg";
 
 const projectsData = [
   //CO Blog Posts
@@ -193,6 +194,14 @@ const projectsData = [
     image: oldMine,
     completionDate: "2023/08/17",
     link: "https://www.cleanorigin.com/blog/old-mine-cut-diamond-vs-european-cut/",
+  },
+  {
+    id: 34,
+    name: "HPHT vs CVD Diamonds: Decoding the Difference for Smart Shoppers",
+    tags: ["SEO"],
+    image: hpht,
+    completionDate: "2023/09/01",
+    link: "https://www.cleanorigin.com/blog/hpht-vs-cvd-diamonds/",
   },
 
   //TP Articles

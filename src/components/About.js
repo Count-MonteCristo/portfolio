@@ -5,8 +5,7 @@ import COLogo from "../assets/co.png";
 import PDLogo from "../assets/pd.png";
 import TPLogo from "../assets/tp.png";
 import AMSALogo from "../assets/a&m.png";
-import PeerLogo from "../assets/peer-place-logo.png";
-import ProfilePicture from "../assets/profile-picture.jpg";
+import ProfilePicture from "../assets/Profile.jpg";
 
 const About = () => {
   return (
@@ -72,11 +71,9 @@ const About = () => {
               alt="The Path logo"
               className="company-logo"
             />
-            <img
-              src={PeerLogo}
-              alt="A Peer Place logo"
-              className="company-logo"
-            />
+          </div>
+          <div className="about-section-cta-text-2">
+            <h3>... and many more.</h3>
           </div>
         </div>
       </div>
