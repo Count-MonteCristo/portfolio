@@ -32,6 +32,7 @@ import lwEarrings from "../assets/project-images/lwEarrings.jpg";
 import oldMine from "../assets/project-images/oldMine.jpg";
 import peerPlaceWebsite from "../assets/peer-place-hero.jpg";
 import hpht from "../assets/project-images/hpht.jpg";
+import choose from "../assets/project-images/choose.jpg";
 
 const projectsData = [
   //CO Blog Posts
@@ -202,6 +203,14 @@ const projectsData = [
     image: hpht,
     completionDate: "2023/09/01",
     link: "https://www.cleanorigin.com/blog/hpht-vs-cvd-diamonds/",
+  },
+  {
+    id: 35,
+    name: "Why Choose Lab Grown Diamonds: A Buyer’s Guide to Brilliant and Ethical Choices",
+    tags: ["SEO"],
+    image: choose,
+    completionDate: "2023/09/07",
+    link: "https://www.cleanorigin.com/blog/why-choose-lab-grown-diamonds/",
   },
 
   //TP Articles
