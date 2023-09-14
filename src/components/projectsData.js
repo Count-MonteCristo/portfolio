@@ -33,6 +33,7 @@ import oldMine from "../assets/project-images/oldMine.jpg";
 import peerPlaceWebsite from "../assets/peer-place-hero.jpg";
 import hpht from "../assets/project-images/hpht.jpg";
 import choose from "../assets/project-images/choose.jpg";
+import moreEthical from "../assets/project-images/moreEthical.jpg";
 
 const projectsData = [
   //CO Blog Posts
@@ -211,6 +212,14 @@ const projectsData = [
     image: choose,
     completionDate: "2023/09/07",
     link: "https://www.cleanorigin.com/blog/why-choose-lab-grown-diamonds/",
+  },
+  {
+    id: 36,
+    name: "Are Lab Grown Diamonds More Ethical Than Natural Diamonds?",
+    tags: ["SEO"],
+    image: moreEthical,
+    completionDate: "2023/09/12",
+    link: "https://www.cleanorigin.com/blog/are-lab-grown-diamonds-more-ethical-than-natural-diamonds/",
   },
 
   //TP Articles
