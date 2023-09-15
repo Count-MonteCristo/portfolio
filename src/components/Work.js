@@ -74,8 +74,7 @@ const Work = () => {
                 elevating its visibility and driving increased organic traffic.
               </div>
               <div className="work-section-content-2-card-tags">
-                <div className="seo-tag">SEO</div>•
-                <div className="design-tag">DESIGN</div>
+                <div className="seo-tag">SEO</div>
               </div>
             </div>
           </div>
