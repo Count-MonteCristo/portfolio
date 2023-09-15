@@ -34,6 +34,7 @@ import peerPlaceWebsite from "../assets/peer-place-hero.jpg";
 import hpht from "../assets/project-images/hpht.jpg";
 import choose from "../assets/project-images/choose.jpg";
 import moreEthical from "../assets/project-images/moreEthical.jpg";
+import blueFluorescence from "../assets/project-images/blueFluorescence.jpg";
 
 const projectsData = [
   //CO Blog Posts
@@ -221,6 +222,14 @@ const projectsData = [
     completionDate: "2023/09/12",
     link: "https://www.cleanorigin.com/blog/are-lab-grown-diamonds-more-ethical-than-natural-diamonds/",
   },
+  {
+    id: 37,
+    name: "The Beauty of a Strong Blue Fluorescence Diamond: A Comprehensive Guide",
+    tags: ["SEO"],
+    image: blueFluorescence,
+    completionDate: "2023/09/14",
+    link: "https://www.cleanorigin.com/blog/strong-blue-fluorescence-diamond/",
+  },
 
   //TP Articles
   {
@@ -302,10 +311,10 @@ const projectsData = [
   {
     id: 28,
     name: "Landing Page Code Updates",
-    tags: ["DESIGN", "DEVELOPMENT"],
+    tags: ["DEVELOPMENT"],
     image: moduleUpdates,
     completionDate: "2023/06/20",
-    link: "https://info.parkerdewey.com/utexas/students",
+    link: "https://info.parkerdewey.com/colorado/menv/students",
   },
   {
     id: 29,
