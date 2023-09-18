@@ -35,6 +35,7 @@ import hpht from "../assets/project-images/hpht.jpg";
 import choose from "../assets/project-images/choose.jpg";
 import moreEthical from "../assets/project-images/moreEthical.jpg";
 import blueFluorescence from "../assets/project-images/blueFluorescence.jpg";
+import virtual from "../assets/project-images/virtual.jpg";
 
 const projectsData = [
   //CO Blog Posts
@@ -229,6 +230,14 @@ const projectsData = [
     image: blueFluorescence,
     completionDate: "2023/09/14",
     link: "https://www.cleanorigin.com/blog/strong-blue-fluorescence-diamond/",
+  },
+  {
+    id: 38,
+    name: "The Future of Engagement Ring Shopping: Virtually Try on Rings",
+    tags: ["SEO"],
+    image: virtual,
+    completionDate: "2023/09/15",
+    link: "https://www.cleanorigin.com/blog/virtually-try-on-rings/",
   },
 
   //TP Articles
