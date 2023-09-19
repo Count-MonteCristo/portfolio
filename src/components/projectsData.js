@@ -36,6 +36,7 @@ import choose from "../assets/project-images/choose.jpg";
 import moreEthical from "../assets/project-images/moreEthical.jpg";
 import blueFluorescence from "../assets/project-images/blueFluorescence.jpg";
 import virtual from "../assets/project-images/virtual.jpg";
+import guide from "../assets/project-images/ring-guide.jpg";
 
 const projectsData = [
   //CO Blog Posts
@@ -238,6 +239,14 @@ const projectsData = [
     image: virtual,
     completionDate: "2023/09/15",
     link: "https://www.cleanorigin.com/blog/virtually-try-on-rings/",
+  },
+  {
+    id: 39,
+    name: "The Complete Engagement Ring Guide",
+    tags: ["SEO"],
+    image: guide,
+    completionDate: "2023/09/19",
+    link: "https://www.cleanorigin.com/blog/engagement-ring-guide/",
   },
 
   //TP Articles
