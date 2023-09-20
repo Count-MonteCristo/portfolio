@@ -24,8 +24,7 @@ const Services = () => {
           I'm a passionate Software Engineer and SEO Editor dedicated to
           crafting exceptional online experiences. With a fusion of creativity
           and technical expertise, I offer a range of services that empower
-          businesses to thrive in the digital realm. Here's what I can do for
-          you:
+          businesses to thrive in the digital realm.
         </p>
         <div className="services-section-cards">
           <div className="services-section-card-design">
