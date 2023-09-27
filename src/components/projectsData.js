@@ -38,6 +38,7 @@ import blueFluorescence from "../assets/project-images/blueFluorescence.jpg";
 import virtual from "../assets/project-images/virtual.jpg";
 import guide from "../assets/project-images/ring-guide.jpg";
 import cloudy from "../assets/project-images/cloudy.jpg";
+import care from "../assets/project-images/care.jpg";
 
 const projectsData = [
   //CO Blog Posts
@@ -256,6 +257,14 @@ const projectsData = [
     image: cloudy,
     completionDate: "2023/09/20",
     link: "https://www.cleanorigin.com/blog/do-lab-grown-diamonds-get-cloudy/",
+  },
+  {
+    id: 41,
+    name: "Engagement Ring Care: Essential Tips for Proper Care and Maintenance",
+    tags: ["SEO"],
+    image: care,
+    completionDate: "2023/09/21",
+    link: "https://www.cleanorigin.com/blog/engagement-ring-care/",
   },
 
   //TP Articles
