@@ -39,6 +39,7 @@ import virtual from "../assets/project-images/virtual.jpg";
 import guide from "../assets/project-images/ring-guide.jpg";
 import cloudy from "../assets/project-images/cloudy.jpg";
 import care from "../assets/project-images/care.jpg";
+import tester from "../assets/project-images/tester.jpg";
 
 const projectsData = [
   //CO Blog Posts
@@ -265,6 +266,14 @@ const projectsData = [
     image: care,
     completionDate: "2023/09/21",
     link: "https://www.cleanorigin.com/blog/engagement-ring-care/",
+  },
+  {
+    id: 42,
+    name: "Do Lab Grown Diamonds Pass a Diamond Tester? Uncovering the Truth",
+    tags: ["SEO"],
+    image: tester,
+    completionDate: "2023/09/25",
+    link: "https://www.cleanorigin.com/blog/do-lab-grown-diamonds-pass-a-diamond-tester/",
   },
 
   //TP Articles
