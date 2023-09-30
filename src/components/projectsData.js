@@ -40,6 +40,7 @@ import guide from "../assets/project-images/ring-guide.jpg";
 import cloudy from "../assets/project-images/cloudy.jpg";
 import care from "../assets/project-images/care.jpg";
 import tester from "../assets/project-images/tester.jpg";
+import highSetting from "../assets/project-images/highSetting.jpg";
 
 const projectsData = [
   //CO Blog Posts
@@ -274,6 +275,14 @@ const projectsData = [
     image: tester,
     completionDate: "2023/09/25",
     link: "https://www.cleanorigin.com/blog/do-lab-grown-diamonds-pass-a-diamond-tester/",
+  },
+  {
+    id: 43,
+    name: "Exploring the Benefits of Engagement Rings with High Settings",
+    tags: ["SEO"],
+    image: highSetting,
+    completionDate: "2023/09/28",
+    link: "https://www.cleanorigin.com/blog/engagement-rings-with-high-settings/",
   },
 
   //TP Articles
