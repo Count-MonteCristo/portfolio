@@ -41,6 +41,7 @@ import cloudy from "../assets/project-images/cloudy.jpg";
 import care from "../assets/project-images/care.jpg";
 import tester from "../assets/project-images/tester.jpg";
 import highSetting from "../assets/project-images/highSetting.jpg";
+import Ring5000 from "../assets/project-images/Ring5000.jpg";
 
 const projectsData = [
   //CO Blog Posts
@@ -283,6 +284,14 @@ const projectsData = [
     image: highSetting,
     completionDate: "2023/09/28",
     link: "https://www.cleanorigin.com/blog/engagement-rings-with-high-settings/",
+  },
+  {
+    id: 44,
+    name: "Find the Perfect $5000 Engagement Ring",
+    tags: ["SEO"],
+    image: Ring5000,
+    completionDate: "2023/10/02",
+    link: "https://www.cleanorigin.com/blog/5000-engagement-ring/",
   },
 
   //TP Articles
