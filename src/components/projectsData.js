@@ -42,6 +42,7 @@ import care from "../assets/project-images/care.jpg";
 import tester from "../assets/project-images/tester.jpg";
 import highSetting from "../assets/project-images/highSetting.jpg";
 import Ring5000 from "../assets/project-images/Ring5000.jpg";
+import howToChoose from "../assets/project-images/howToChoose.jpg";
 
 const projectsData = [
   //CO Blog Posts
@@ -292,6 +293,14 @@ const projectsData = [
     image: Ring5000,
     completionDate: "2023/10/02",
     link: "https://www.cleanorigin.com/blog/5000-engagement-ring/",
+  },
+  {
+    id: 45,
+    name: "How To Choose an Engagement Ring",
+    tags: ["SEO"],
+    image: howToChoose,
+    completionDate: "2023/10/04",
+    link: "https://www.cleanorigin.com/blog/how-to-choose-an-engagement-ring/",
   },
 
   //TP Articles
