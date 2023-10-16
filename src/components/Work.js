@@ -3,7 +3,7 @@ import "./css/work.css";
 import h2StripesSVG from "../assets/h2Stripes.svg";
 import ParkerDeweyHero from "../assets/ParkerDeweyHero.jpg";
 import CleanOriginHero from "../assets/CleanOriginHero.jpg";
-import PeerPlaceHero from "../assets/peer-place-hero.jpg";
+import ShipHero from "../assets/project-images/ship.jpg";
 
 const Work = () => {
   return (
@@ -21,9 +21,9 @@ const Work = () => {
           <h2>Work</h2>
         </div>
         <p className="content-section-text">
-          Below are some of the diverse and innovative projects where I've had
-          the privilege to combine design, development, and SEO expertise to
-          deliver outstanding digital experiences.
+          Below are some of the innovative projects where I've had the privilege
+          to combine design, development, and SEO expertise to deliver
+          outstanding digital experiences.
         </p>
         <div className="work-section-content">
           <div className="work-section-content-1">
@@ -82,12 +82,12 @@ const Work = () => {
           <div className="work-section-content-1">
             <div className="work-section-content-1-card">
               <div className="work-section-content-1-card-title">
-                Inaugural Non-Profit Website
+                E-Commerce Digital Hub
               </div>
               <div className="work-section-content-1-card-description">
-                Collaborated with A Peer Place to establish a meaningful online
-                presence and effectively communicate their mission and
-                initiatives.
+                Collaborated with Ship.com to create a visually appealing and
+                functional platform to enhance user engagement and drive
+                business growth.
               </div>
               <div className="work-section-content-1-card-tags">
                 <div className="design-tag">DESIGN</div>•
@@ -96,13 +96,13 @@ const Work = () => {
               </div>
             </div>
             <a
-              href="https://www.apeerplace.com/"
+              href="https://www.ship.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
-                src={PeerPlaceHero}
-                alt="Peer Place Website"
+                src={ShipHero}
+                alt="Shi[] Website"
                 className="project-image"
               />
             </a>

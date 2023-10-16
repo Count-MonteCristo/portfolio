@@ -43,6 +43,10 @@ import tester from "../assets/project-images/tester.jpg";
 import highSetting from "../assets/project-images/highSetting.jpg";
 import Ring5000 from "../assets/project-images/Ring5000.jpg";
 import howToChoose from "../assets/project-images/howToChoose.jpg";
+import sustainable from "../assets/project-images/sustainable.jpg";
+import modernGifts from "../assets/project-images/modernGifts.jpg";
+import ship from "../assets/project-images/ship.jpg";
+import shipLandingPage from "../assets/project-images/shipLandingPage.jpg";
 
 const projectsData = [
   //CO Blog Posts
@@ -302,6 +306,22 @@ const projectsData = [
     completionDate: "2023/10/04",
     link: "https://www.cleanorigin.com/blog/how-to-choose-an-engagement-ring/",
   },
+  {
+    id: 46,
+    name: "Unlocking the Brilliance of Sustainable Diamonds: Lab Grown vs. Natural",
+    tags: ["SEO"],
+    image: sustainable,
+    completionDate: "2023/10/11",
+    link: "https://www.cleanorigin.com/blog/sustainable-diamonds/",
+  },
+  {
+    id: 47,
+    name: "Modern Gifts for Anniversary Milestones",
+    tags: ["SEO"],
+    image: modernGifts,
+    completionDate: "2023/10/12",
+    link: "https://www.cleanorigin.com/blog/gifts-for-anniversary-milestones/",
+  },
 
   //TP Articles
   {
@@ -411,6 +431,22 @@ const projectsData = [
     image: peerPlaceWebsite,
     completionDate: "2023/08/25",
     link: "https://www.apeerplace.com/",
+  },
+  {
+    id: 48,
+    name: "E-Commerce Digital Hub",
+    tags: ["DESIGN", "DEVELOPMENT", "SEO"],
+    image: ship,
+    completionDate: "2023/10/16",
+    link: "https://www.ship.com/",
+  },
+  {
+    id: 49,
+    name: "E-commerce Landing Pages",
+    tags: ["DESIGN", "DEVELOPMENT", "SEO"],
+    image: shipLandingPage,
+    completionDate: "2023/10/30",
+    link: "https://www.ship.com/shopify",
   },
 ];
 

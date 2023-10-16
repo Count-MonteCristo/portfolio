@@ -3,7 +3,7 @@ import "./css/about.css";
 import h2StripesSVG from "../assets/h2Stripes.svg";
 import COLogo from "../assets/co.png";
 import PDLogo from "../assets/pd.png";
-import TPLogo from "../assets/tp.png";
+import ShipLogo from "../assets/ship-logo.svg";
 import AMSALogo from "../assets/a&m.png";
 import ProfilePicture from "../assets/Profile.jpg";
 
@@ -67,7 +67,7 @@ const About = () => {
               className="company-logo"
             />
             <img
-              src={TPLogo}
+              src={ShipLogo}
               alt="The Path logo"
               className="company-logo"
             />
