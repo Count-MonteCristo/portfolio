@@ -2,6 +2,7 @@ import React from "react";
 import "./css/about.css";
 import h2StripesSVG from "../assets/h2Stripes.svg";
 import COLogo from "../assets/co.png";
+import KPMGLogo from "../assets/KPMG_logo.png";
 import PDLogo from "../assets/pd.png";
 import ShipLogo from "../assets/ship-logo.svg";
 import AMSALogo from "../assets/a&m.png";
@@ -28,7 +29,7 @@ const About = () => {
           <div className="about-section-content-1">
             <div className="about-section-content-1-card">
               <div className="about-section-content-1-card-title">
-                A Software Engineer and SEO Editor working remotely from San
+                A Software Engineer and SEO Specialist working remotely from San
                 Antonio, Texas
               </div>
               <div className="about-section-content-1-card-description">
@@ -36,9 +37,8 @@ const About = () => {
                 their audiences in a meaningful way.
                 <br />
                 <br />
-                In my free time, you'll find me outdoors braving the hot Texas
-                weather, going to concerts of all music genres, and spending
-                time with my loved ones.
+                In my free time, you'll find me at the gym, going to concerts of
+                all music genres, and spending time with my loved ones.
               </div>
             </div>
             <img
@@ -51,6 +51,11 @@ const About = () => {
             <h3>Trusted by</h3>
           </div>
           <div className="company-logos">
+            <img
+              src={KPMGLogo}
+              alt="KPMG logo"
+              className="company-logo"
+            />
             <img
               src={COLogo}
               alt="Clean Origin logo"

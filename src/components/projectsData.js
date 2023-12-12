@@ -47,6 +47,11 @@ import sustainable from "../assets/project-images/sustainable.jpg";
 import modernGifts from "../assets/project-images/modernGifts.jpg";
 import ship from "../assets/project-images/ship.jpg";
 import shipLandingPage from "../assets/project-images/shipLandingPage.jpg";
+import earPiercing from "../assets/project-images/earPiercing.jpg";
+import customDiamondEarrings from "../assets/project-images/customDiamondEarrings.jpg";
+import perfectFit from "../assets/project-images/perfectFit.jpg";
+import baGlobal from "../assets/project-images/baGlobal.jpg";
+import captainLandingPage from "../assets/project-images/captainLandingPage.jpg";
 
 const projectsData = [
   //CO Blog Posts
@@ -322,6 +327,30 @@ const projectsData = [
     completionDate: "2023/10/12",
     link: "https://www.cleanorigin.com/blog/gifts-for-anniversary-milestones/",
   },
+  {
+    id: 50,
+    name: "When Can I Change My Ear Piercing?",
+    tags: ["SEO"],
+    image: earPiercing,
+    completionDate: "2023/10/18",
+    link: "https://www.cleanorigin.com/blog/when-can-i-change-my-ear-piercing/",
+  },
+  {
+    id: 51,
+    name: "Create Customized Diamond Earrings – Build Your Own Unique Look!",
+    tags: ["SEO"],
+    image: customDiamondEarrings,
+    completionDate: "2023/10/25",
+    link: "https://www.cleanorigin.com/blog/customized-diamond-earrings/",
+  },
+  {
+    id: 52,
+    name: "The Perfect Fit: How Should a Tennis Bracelet Fit?",
+    tags: ["SEO"],
+    image: perfectFit,
+    completionDate: "2023/10/27",
+    link: "https://www.cleanorigin.com/blog/how-should-a-tennis-bracelet-fit/",
+  },
 
   //TP Articles
   {
@@ -442,11 +471,27 @@ const projectsData = [
   },
   {
     id: 49,
-    name: "E-commerce Landing Pages",
+    name: "E-commerce Integration Landing Pages",
     tags: ["DESIGN", "DEVELOPMENT", "SEO"],
     image: shipLandingPage,
     completionDate: "2023/10/30",
     link: "https://www.ship.com/shopify",
+  },
+  {
+    id: 53,
+    name: "Website Revamp",
+    tags: ["DESIGN", "DEVELOPMENT", "SEO"],
+    image: baGlobal,
+    completionDate: "2023/11/22",
+    link: "https://backofficeabroad.com/",
+  },
+  {
+    id: 54,
+    name: "Captain Landing Page",
+    tags: ["DESIGN", "DEVELOPMENT", "SEO"],
+    image: captainLandingPage,
+    completionDate: "2023/11/30",
+    link: "https://www.ship.com/captain",
   },
 ];
 

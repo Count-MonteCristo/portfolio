@@ -21,7 +21,7 @@ const Services = () => {
           <h2>Services</h2>
         </div>
         <p className="content-section-text">
-          I'm a passionate Software Engineer and SEO Editor dedicated to
+          I'm a passionate Software Engineer and SEO Specialist dedicated to
           crafting exceptional online experiences. With a fusion of creativity
           and technical expertise, I offer a range of services that empower
           businesses to thrive in the digital realm.

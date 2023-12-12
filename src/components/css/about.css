@@ -37,10 +37,11 @@
   font-weight: 400;
 }
 
-.about-section-cta-text-2 {
+.about-section-cta-text-2 h3 {
   color: #d4d4d4;
   text-align: center;
   padding-top: 20px;
+  font-size: 22px !important;
 }
 
 .company-logos {
@@ -55,7 +56,7 @@
 
 .company-logo {
   max-width: 280px;
-  height: auto;
+  height: 50px;
   margin: 5px;
 }
 
