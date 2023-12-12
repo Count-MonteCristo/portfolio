@@ -70,8 +70,8 @@ const Work = () => {
                 Increased Online Visibility
               </div>
               <div className="work-section-content-2-card-description">
-                Continuously optimize Clean Origin's website for search engines,
-                elevating its visibility and driving increased organic traffic.
+                Optimized Clean Origin's website for search engines, elevating
+                its visibility and driving increased organic traffic.
               </div>
               <div className="work-section-content-2-card-tags">
                 <div className="seo-tag">SEO</div>

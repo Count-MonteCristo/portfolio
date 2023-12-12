@@ -24,7 +24,7 @@ const Hero = () => {
                     .typeString("I am a Software Engineer")
                     .pauseFor(1500)
                     .deleteChars(18)
-                    .typeString("n SEO Editor")
+                    .typeString("n SEO Specialist")
                     .pauseFor(1500)
                     .start();
                 }}
