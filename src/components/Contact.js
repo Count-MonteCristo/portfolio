@@ -17,12 +17,12 @@ const Contact = () => {
         <p className="contact-section-text">
           If you're ready to take your online presence to the next level, I'm
           here to make it happen. Whether you need a compelling website, a
-          powerful web application, or SEO content that drives growth, I've got
+          powerful web application, or marketing that drives growth, I've got
           you covered.
         </p>
 
         <div className="social-buttons">
-          <a href="mailto:luis0425navarro@gmail.com">
+          <a href="mailto:luis@radiateconsulting.coop">
             <button className="social-button">
               <div className="social-button-content">
                 <BiMailSend size={30} />

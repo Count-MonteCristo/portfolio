@@ -16,13 +16,17 @@ const Portfolio = () => {
       {/* Content section */}
       <div
         className="background-color-section"
-        style={{ backgroundColor: "#0E192A" }}
+        style={{ backgroundColor: "#ffffff" }}
       >
         {/* Projects section */}
         <Projects />
-
+        <div
+        className="background-color-section"
+        style={{ backgroundColor: "#1C1C1C" }}
+        >
         {/* Footer section */}
         <Footer />
+        </div>
       </div>
     </>
   );

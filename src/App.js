@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
 import { inject } from "@vercel/analytics";
 
+
 const App = () => {
   inject();
 

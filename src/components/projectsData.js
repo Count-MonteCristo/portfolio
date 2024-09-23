@@ -58,7 +58,7 @@ const projectsData = [
   {
     id: 1,
     name: "Unveiling Bridal Style: Discover the Perfect Engagement Ring for Every Bride",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: bridalStyle,
     completionDate: "2023-07-18",
     link: "https://www.cleanorigin.com/blog/bridal-style/",
@@ -66,7 +66,7 @@ const projectsData = [
   {
     id: 2,
     name: "SCS-007 Certification: For a Sustainable Diamond Industry",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: scs007,
     completionDate: "2023-07-12",
     link: "https://www.cleanorigin.com/blog/sustainable-diamond/",
@@ -74,7 +74,7 @@ const projectsData = [
   {
     id: 3,
     name: "The Most Expensive Engagement Ring Worn by a Celebrity",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: expensiveRing,
     completionDate: "2023-06-20",
     link: "https://www.cleanorigin.com/blog/most-expensive-engagement-ring/",
@@ -82,7 +82,7 @@ const projectsData = [
   {
     id: 4,
     name: "What Diamond Shapes Look Biggest on an Engagement Ring",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: biggestDiamondShapes,
     completionDate: "2023-06-14",
     link: "https://www.cleanorigin.com/blog/what-diamond-shapes-look-biggest-on-an-engagement-ring/",
@@ -90,7 +90,7 @@ const projectsData = [
   {
     id: 5,
     name: "Meeting the Parents",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: meetingTheParents,
     completionDate: "2023-06-07",
     link: "https://www.cleanorigin.com/blog/meeting-the-parents/",
@@ -98,7 +98,7 @@ const projectsData = [
   {
     id: 6,
     name: "The Lauren Sanchez Engagement Ring",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: laurenSanchez,
     completionDate: "2023-06-03",
     link: "https://www.cleanorigin.com/blog/lauren-sanchez-engagement-ring/",
@@ -106,7 +106,7 @@ const projectsData = [
   {
     id: 7,
     name: "Shopping Guide for Engagement Rings - Houston, TX",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: shoppingGuideHouston,
     completionDate: "2023-05-19",
     link: "https://www.cleanorigin.com/blog/shopping-guide-for-engagement-rings-houston-tx/",
@@ -114,7 +114,7 @@ const projectsData = [
   {
     id: 8,
     name: "Shopping Guide for Engagement Rings - Dallas, TX",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: shoppingGuideDallas,
     completionDate: "2023-05-18",
     link: "https://www.cleanorigin.com/blog/engagement-rings-dallas/",
@@ -122,7 +122,7 @@ const projectsData = [
   {
     id: 9,
     name: "Recycled Gold Jewelry",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: recycledGold,
     completionDate: "2023-05-11",
     link: "https://www.cleanorigin.com/blog/recycled-gold-jewelry/",
@@ -130,7 +130,7 @@ const projectsData = [
   {
     id: 10,
     name: "Celebrity Men's Wedding Bands",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: celebrityWeddingBands,
     completionDate: "2023-05-10",
     link: "https://www.cleanorigin.com/blog/celebrity-mens-wedding-bands/",
@@ -138,7 +138,7 @@ const projectsData = [
   {
     id: 11,
     name: "Custom Engagement Rings at Clean Origin",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: customRings,
     completionDate: "2023-05-04",
     link: "https://www.cleanorigin.com/blog/custom-engagement-rings-at-clean-origin/",
@@ -146,7 +146,7 @@ const projectsData = [
   {
     id: 12,
     name: "How to Measure Ring Size: A Comprehensive Guide",
-    tags: ["DESIGN", "SEO"],
+    tags: ["DESIGN", "MARKETING"],
     image: ringSize,
     completionDate: "2023-05-03",
     link: "https://www.cleanorigin.com/blog/how-to-measure-ring-size-a-comprehensive-guide/",
@@ -154,7 +154,7 @@ const projectsData = [
   {
     id: 13,
     name: "Keep Your Conscience Clean With Ethical Diamonds",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: ethicalDiamonds,
     completionDate: "2023-04-20",
     link: "https://www.cleanorigin.com/blog/keep-your-conscience-clean-with-ethical-diamonds/",
@@ -162,7 +162,7 @@ const projectsData = [
   {
     id: 14,
     name: "Find the Perfect Fit With a Stud Earring Size Chart",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: earringSizeChart,
     completionDate: "2023-04-14",
     link: "https://www.cleanorigin.com/blog/stud-earring-size-chart/",
@@ -170,7 +170,7 @@ const projectsData = [
   {
     id: 15,
     name: "Western Wedding Rings: The Perfect Blend of Tradition and Style",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: westernRings,
     completionDate: "2023-04-12",
     link: "https://www.cleanorigin.com/blog/western-wedding-rings/",
@@ -178,7 +178,7 @@ const projectsData = [
   {
     id: 16,
     name: "Types of Diamonds",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: diamondTypes,
     completionDate: "2023-02-08",
     link: "https://www.cleanorigin.com/blog/types-of-diamonds/",
@@ -186,7 +186,7 @@ const projectsData = [
   {
     id: 17,
     name: "Engagement Rings Under $2,000",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: affordableRings,
     completionDate: "2023-02-06",
     link: "https://www.cleanorigin.com/blog/2000-engagement-ring/",
@@ -194,7 +194,7 @@ const projectsData = [
   {
     id: 18,
     name: "Engagement Rings for Women: 9 Engagement Ring Shopping Tips",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: tips,
     completionDate: "2023/01/12",
     link: "https://www.cleanorigin.com/blog/engagement-rings-for-women/",
@@ -202,7 +202,7 @@ const projectsData = [
   {
     id: 31,
     name: "Light Weight Earrings: Elevating Style and Comfort",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: lwEarrings,
     completionDate: "2023/08/16",
     link: "https://www.cleanorigin.com/blog/light-weight-earrings-elevating-style-and-comfort/",
@@ -210,7 +210,7 @@ const projectsData = [
   {
     id: 32,
     name: "Old Mine Cut Diamond vs European Cut: The Timeless Charm of Antique Diamond Cuts",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: oldMine,
     completionDate: "2023/08/17",
     link: "https://www.cleanorigin.com/blog/old-mine-cut-diamond-vs-european-cut/",
@@ -218,7 +218,7 @@ const projectsData = [
   {
     id: 34,
     name: "HPHT vs CVD Diamonds: Decoding the Difference for Smart Shoppers",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: hpht,
     completionDate: "2023/09/01",
     link: "https://www.cleanorigin.com/blog/hpht-vs-cvd-diamonds/",
@@ -226,7 +226,7 @@ const projectsData = [
   {
     id: 35,
     name: "Why Choose Lab Grown Diamonds: A Buyer’s Guide to Brilliant and Ethical Choices",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: choose,
     completionDate: "2023/09/07",
     link: "https://www.cleanorigin.com/blog/why-choose-lab-grown-diamonds/",
@@ -234,7 +234,7 @@ const projectsData = [
   {
     id: 36,
     name: "Are Lab Grown Diamonds More Ethical Than Natural Diamonds?",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: moreEthical,
     completionDate: "2023/09/12",
     link: "https://www.cleanorigin.com/blog/are-lab-grown-diamonds-more-ethical-than-natural-diamonds/",
@@ -242,7 +242,7 @@ const projectsData = [
   {
     id: 37,
     name: "The Beauty of a Strong Blue Fluorescence Diamond: A Comprehensive Guide",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: blueFluorescence,
     completionDate: "2023/09/14",
     link: "https://www.cleanorigin.com/blog/strong-blue-fluorescence-diamond/",
@@ -250,7 +250,7 @@ const projectsData = [
   {
     id: 38,
     name: "The Future of Engagement Ring Shopping: Virtually Try on Rings",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: virtual,
     completionDate: "2023/09/15",
     link: "https://www.cleanorigin.com/blog/virtually-try-on-rings/",
@@ -258,7 +258,7 @@ const projectsData = [
   {
     id: 39,
     name: "The Complete Engagement Ring Guide",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: guide,
     completionDate: "2023/09/19",
     link: "https://www.cleanorigin.com/blog/engagement-ring-guide/",
@@ -266,7 +266,7 @@ const projectsData = [
   {
     id: 40,
     name: "Do Lab Grown Diamonds Get Cloudy?",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: cloudy,
     completionDate: "2023/09/20",
     link: "https://www.cleanorigin.com/blog/do-lab-grown-diamonds-get-cloudy/",
@@ -274,7 +274,7 @@ const projectsData = [
   {
     id: 41,
     name: "Engagement Ring Care: Essential Tips for Proper Care and Maintenance",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: care,
     completionDate: "2023/09/21",
     link: "https://www.cleanorigin.com/blog/engagement-ring-care/",
@@ -282,7 +282,7 @@ const projectsData = [
   {
     id: 42,
     name: "Do Lab Grown Diamonds Pass a Diamond Tester? Uncovering the Truth",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: tester,
     completionDate: "2023/09/25",
     link: "https://www.cleanorigin.com/blog/do-lab-grown-diamonds-pass-a-diamond-tester/",
@@ -290,7 +290,7 @@ const projectsData = [
   {
     id: 43,
     name: "Exploring the Benefits of Engagement Rings with High Settings",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: highSetting,
     completionDate: "2023/09/28",
     link: "https://www.cleanorigin.com/blog/engagement-rings-with-high-settings/",
@@ -298,7 +298,7 @@ const projectsData = [
   {
     id: 44,
     name: "Find the Perfect $5000 Engagement Ring",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: Ring5000,
     completionDate: "2023/10/02",
     link: "https://www.cleanorigin.com/blog/5000-engagement-ring/",
@@ -306,7 +306,7 @@ const projectsData = [
   {
     id: 45,
     name: "How To Choose an Engagement Ring",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: howToChoose,
     completionDate: "2023/10/04",
     link: "https://www.cleanorigin.com/blog/how-to-choose-an-engagement-ring/",
@@ -314,7 +314,7 @@ const projectsData = [
   {
     id: 46,
     name: "Unlocking the Brilliance of Sustainable Diamonds: Lab Grown vs. Natural",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: sustainable,
     completionDate: "2023/10/11",
     link: "https://www.cleanorigin.com/blog/sustainable-diamonds/",
@@ -322,7 +322,7 @@ const projectsData = [
   {
     id: 47,
     name: "Modern Gifts for Anniversary Milestones",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: modernGifts,
     completionDate: "2023/10/12",
     link: "https://www.cleanorigin.com/blog/gifts-for-anniversary-milestones/",
@@ -330,7 +330,7 @@ const projectsData = [
   {
     id: 50,
     name: "When Can I Change My Ear Piercing?",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: earPiercing,
     completionDate: "2023/10/18",
     link: "https://www.cleanorigin.com/blog/when-can-i-change-my-ear-piercing/",
@@ -338,7 +338,7 @@ const projectsData = [
   {
     id: 51,
     name: "Create Customized Diamond Earrings – Build Your Own Unique Look!",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: customDiamondEarrings,
     completionDate: "2023/10/25",
     link: "https://www.cleanorigin.com/blog/customized-diamond-earrings/",
@@ -346,7 +346,7 @@ const projectsData = [
   {
     id: 52,
     name: "The Perfect Fit: How Should a Tennis Bracelet Fit?",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: perfectFit,
     completionDate: "2023/10/27",
     link: "https://www.cleanorigin.com/blog/how-should-a-tennis-bracelet-fit/",
@@ -356,7 +356,7 @@ const projectsData = [
   {
     id: 19,
     name: "A Weapon Geralt Wields Sharper Than Steel or Silver",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: geraltEmpathy,
     completionDate: "2022/10/19",
     link: "https://thepathwitcher.blog/2022/10/19/geralts-main-strength-empathy/",
@@ -364,7 +364,7 @@ const projectsData = [
   {
     id: 20,
     name: "The Bard's Largest Contribution Isn't His Music",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: dandelion,
     completionDate: "2022/12/10",
     link: "https://thepathwitcher.blog/2022/12/10/the-bards-largest-contribution-isnt-his-music/",
@@ -372,7 +372,7 @@ const projectsData = [
   {
     id: 21,
     name: "The Witcher: Blood Origin Review - A Story Meant for Everyone That Satisfies No One",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: bloodOrigin,
     completionDate: "2023/01/08",
     link: "https://thepathwitcher.blog/2023/01/08/the-witcher-blood-origin-review-a-story-meant-for-everyone-that-satisfies-no-one/",
@@ -380,7 +380,7 @@ const projectsData = [
   {
     id: 22,
     name: "The Dangers of Success: The Last of Us, Episode 4 Review",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: tlou4,
     completionDate: "2023/02/10",
     link: "https://thepathwitcher.blog/2023/02/10/the-dangers-of-success-the-last-of-us-episode-4-review/",
@@ -388,7 +388,7 @@ const projectsData = [
   {
     id: 23,
     name: "Who Are We but Our Memories? A Dive Into Ellie's Past: The Last of Us Episode 7 Review",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: tlou7,
     completionDate: "2023/03/02",
     link: "https://thepathwitcher.blog/2023/03/02/who-are-we-but-our-memories-a-dive-into-ellies-past-the-last-of-us-episode-7-review/",
@@ -396,7 +396,7 @@ const projectsData = [
   {
     id: 24,
     name: "The Last of Us Season 1 Overall Review - The Best Live-Action Video Game Adaptation",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: tlouS1,
     completionDate: "2023/03/19",
     link: "https://thepathwitcher.blog/2023/03/19/title-the-last-of-us-season-1-overall-review-the-best-live-action-video-game-adaptation/",
@@ -404,7 +404,7 @@ const projectsData = [
   {
     id: 25,
     name: "The Witcher's Story Is Not Geralt's Alone",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: ciri,
     completionDate: "2023/03/24",
     link: "https://thepathwitcher.blog/2023/03/24/the-witchers-story-is-not-geralts-alone/",
@@ -414,7 +414,7 @@ const projectsData = [
   {
     id: 26,
     name: "Sales Emails and Case Studies Content Creation",
-    tags: ["SEO"],
+    tags: ["MARKETING"],
     image: caseStudies,
     completionDate: "2023/03/31",
     link: "https://www.parkerdewey.com/blog",
@@ -424,7 +424,7 @@ const projectsData = [
   {
     id: 27,
     name: "The Path Website Redesign",
-    tags: ["DESIGN", "DEVELOPMENT", "SEO"],
+    tags: ["DESIGN", "DEVELOPMENT", "MARKETING"],
     image: tpWebsite,
     completionDate: "2023/04/06",
     link: "https://thepathwitcher.blog/",
@@ -456,7 +456,7 @@ const projectsData = [
   {
     id: 33,
     name: "Inaugural Non-Profit Website",
-    tags: ["DESIGN", "DEVELOPMENT", "SEO"],
+    tags: ["DESIGN", "DEVELOPMENT", "MARKETING"],
     image: peerPlaceWebsite,
     completionDate: "2023/08/25",
     link: "https://www.apeerplace.com/",
@@ -464,7 +464,7 @@ const projectsData = [
   {
     id: 48,
     name: "E-Commerce Digital Hub",
-    tags: ["DESIGN", "DEVELOPMENT", "SEO"],
+    tags: ["DESIGN", "DEVELOPMENT", "MARKETING"],
     image: ship,
     completionDate: "2023/10/16",
     link: "https://www.ship.com/",
@@ -472,7 +472,7 @@ const projectsData = [
   {
     id: 49,
     name: "E-commerce Integration Landing Pages",
-    tags: ["DESIGN", "DEVELOPMENT", "SEO"],
+    tags: ["DESIGN", "DEVELOPMENT", "MARKETING"],
     image: shipLandingPage,
     completionDate: "2023/10/30",
     link: "https://www.ship.com/shopify",
@@ -480,7 +480,7 @@ const projectsData = [
   {
     id: 53,
     name: "Website Revamp",
-    tags: ["DESIGN", "DEVELOPMENT", "SEO"],
+    tags: ["DESIGN", "DEVELOPMENT", "MARKETING"],
     image: baGlobal,
     completionDate: "2023/11/22",
     link: "https://backofficeabroad.com/",
@@ -488,7 +488,7 @@ const projectsData = [
   {
     id: 54,
     name: "Captain Landing Page",
-    tags: ["DESIGN", "DEVELOPMENT", "SEO"],
+    tags: ["DESIGN", "DEVELOPMENT", "MARKETING"],
     image: captainLandingPage,
     completionDate: "2023/11/30",
     link: "https://www.ship.com/captain",

@@ -1,5 +1,5 @@
 .sticky-header {
-  background-color: #f4f5f5e3;
+  background-color: #1C1C1C;
   backdrop-filter: blur(10px);
   position: sticky;
   top: 0;
@@ -25,14 +25,18 @@
 }
 
 .sticky-header a {
-  color: #333;
+  color: #d4d4d4;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 700;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  letter-spacing: 3px;
 }
 
 .sticky-header a:hover {
-  color: #b7353c;
+  color: #00AEA9;
 }
 
 .nav-link {
@@ -50,7 +54,7 @@
   font-weight: 700;
   flex-shrink: 0;
   border-radius: 5px;
-  background: #b7353c;
+  background: #00AEA9;
   border: none;
   width: 150px;
   height: 40px;
@@ -59,7 +63,7 @@
 }
 
 .cta-button-header:hover {
-  background: #9c2c32;
+  background: #00AEA9;
   transform: scale(1.1);
 }
 

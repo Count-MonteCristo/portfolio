@@ -23,15 +23,15 @@ const Hero = () => {
                   typewriter
                     .typeString("I am a Software Engineer")
                     .pauseFor(1500)
-                    .deleteChars(18)
-                    .typeString("n SEO Specialist")
+                    .deleteChars(17)
+                    .typeString("Digital Marketer")
                     .pauseFor(1500)
                     .start();
                 }}
               />
             </h1>
             <p className="hero-description">
-              An all-in-one solution for your website needs.
+              An all-in-one solution for your digital needs
             </p>
           </div>
         </div>

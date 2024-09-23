@@ -22,21 +22,28 @@
   padding-top: 90px;
   margin-left: 20px;
   margin-right: 20px;
+  font-family: "Big Shoulders Inline Text", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 h2 {
-  font-size: 64px;
-  font-weight: 700;
+  font-size: 72px;
+  font-weight: 800;
   padding-left: 30px;
 }
 
 .content-section-text,
 .contact-section-text {
   color: #d4d4d4;
-  font-size: 24px;
-  font-weight: 400;
+  font-size: 28px;
+  font-weight: 600;
   padding-top: 30px;
   padding-bottom: 90px;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  letter-spacing: 3px;
 }
 
 p {

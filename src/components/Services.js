@@ -21,7 +21,7 @@ const Services = () => {
           <h2>Services</h2>
         </div>
         <p className="content-section-text">
-          I'm a passionate Software Engineer and SEO Specialist dedicated to
+          I'm a passionate software engineer and digital marketer dedicated to
           crafting exceptional online experiences. With a fusion of creativity
           and technical expertise, I offer a range of services that empower
           businesses to thrive in the digital realm.
@@ -32,7 +32,7 @@ const Services = () => {
               <MdOutlineDesignServices
                 className="icons-services"
                 size={80}
-                color={"#b7353c"}
+                color={"#00AEA9"}
               />
               <h3 className="services-section-content-heading">Design</h3>
               <p className="services-section-content-text">
@@ -46,7 +46,7 @@ const Services = () => {
               <HiCode
                 className="icons-services"
                 size={80}
-                color={"#D06A42"}
+                color={"#F3426E"}
               />
               <h3 className="services-section-content-heading">Development</h3>
               <p className="services-section-content-text">
@@ -60,7 +60,7 @@ const Services = () => {
               <MdSearch
                 className="icons-services"
                 size={80}
-                color={"#D0AD6C"}
+                color={"#FD8103"}
               />
               <h3 className="services-section-content-heading">SEO</h3>
               <p className="services-section-content-text">

@@ -36,13 +36,14 @@ const Home = () => {
       <StickyHeader />
 
       {/* Hero section */}
+      <div
+        className="background-color-section"
+        style={{ backgroundColor: "#1C1C1C" }}
+      >
+
       <Hero />
 
       {/* Content section */}
-      <div
-        className="background-color-section"
-        style={{ backgroundColor: "#0E192A" }}
-      >
         {/* Services section */}
         <Services />
 

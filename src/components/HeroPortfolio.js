@@ -36,8 +36,8 @@ const HeroPortfolio = () => {
                 className="h2Stripes-svg"
               />
               <div className="experience">
-                <div className="number">1</div>
-                <div className="label">Year of experience</div>
+                <div className="number">2</div>
+                <div className="label">Years of experience</div>
               </div>
             </div>
           </div>
