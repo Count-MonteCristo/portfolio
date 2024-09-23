@@ -70,6 +70,10 @@
   border-radius: 10px;
 }
 
+.about-section-cta-text {
+  margin-top: 20px;
+}
+
 /* Tablet */
 @media (max-width: 900px) {
   .about-section-content-1-card-title {

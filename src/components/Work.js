@@ -2,8 +2,9 @@ import React from "react";
 import "./css/work.css";
 import h2StripesSVG from "../assets/h2Stripes.svg";
 import ParkerDeweyHero from "../assets/ParkerDeweyHero.jpg";
-import CleanOriginHero from "../assets/CleanOriginHero.jpg";
+import ThePathHero from "../assets/project-images/tp-website.jpg";
 import ShipHero from "../assets/project-images/ship.jpg";
+import VamosHero from "../assets/project-images/vamos.png";
 
 const Work = () => {
   return (
@@ -55,12 +56,12 @@ const Work = () => {
 
           <div className="work-section-content-2">
             <a
-              href="https://www.cleanorigin.com/"
+              href="https://thepathwitcher.blog/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
-                src={CleanOriginHero}
+                src={ThePathHero}
                 alt="Parker Dewey Website"
                 className="project-image"
               />
@@ -70,10 +71,12 @@ const Work = () => {
                 Increased Online Visibility
               </div>
               <div className="work-section-content-2-card-description">
-                Optimized Clean Origin's website for search engines, elevating
-                its visibility and driving increased organic traffic.
+                Redesigned and optimized The Path/パス website for search engines, elevating
+                its visibility and driving increased organic traffic by over 400% since 2022.
               </div>
               <div className="work-section-content-2-card-tags">
+              <div className="design-tag">DESIGN</div>•
+                <div className="dev-tag">DEVELOPMENT</div>•
                 <div className="marketing-tag">MARKETING</div>
               </div>
             </div>
@@ -106,6 +109,34 @@ const Work = () => {
                 className="project-image"
               />
             </a>
+          </div>
+
+          <div className="work-section-content-2">
+            <a
+              href="https://codethedream.org/vamos/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={VamosHero}
+                alt="Vamos Website"
+                className="project-image"
+              />
+            </a>
+            <div className="work-section-content-2-card">
+              <div className="work-section-content-2-card-title">
+                Web and Mobile App Development
+              </div>
+              <div className="work-section-content-2-card-description">
+                Continously enhance user features and overall design for a tool designed specifically for farmworker outreach, 
+                replacing hours of work planning routes, documenting visit details, and administrative reporting.
+              </div>
+              <div className="work-section-content-2-card-tags">
+              <div className="design-tag">DESIGN</div>•
+                <div className="dev-tag">DEVELOPMENT</div>•
+                <div className="marketing-tag">MARKETING</div>
+              </div>
+            </div>
           </div>
 
           <div className="work-section-cta">

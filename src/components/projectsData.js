@@ -52,6 +52,44 @@ import customDiamondEarrings from "../assets/project-images/customDiamondEarring
 import perfectFit from "../assets/project-images/perfectFit.jpg";
 import baGlobal from "../assets/project-images/baGlobal.jpg";
 import captainLandingPage from "../assets/project-images/captainLandingPage.jpg";
+import shipSpecialLandingPage from '../assets/project-images/ship-special.png'
+import shipApp from '../assets/project-images/ship-app.png'
+import shipSignUp from '../assets/project-images/ship-sign-up.png'
+import shipAmbassador from '../assets/project-images/ship-ambassador.png'
+import shipTracking from '../assets/project-images/ship-tracking.png'
+import vamos from '../assets/project-images/vamos.png'
+import paredes from '../assets/project-images/paredes.png'
+import rebel from '../assets/project-images/rebel.png'
+import emotional from '../assets/project-images/emotional.png'
+import ghost from '../assets/project-images/ghost.png'
+import poet from '../assets/project-images/poet.png'
+import yennefer from '../assets/project-images/yennefer.png'
+import copyPerson from '../assets/project-images/copy-person.png'
+import wildHunt from '../assets/project-images/wild-hunt.png'
+import panam from '../assets/project-images/panam.png'
+import nilfgaard from '../assets/project-images/nilfgaard.png'
+import cdProjekt from '../assets/project-images/cdProjekt.png'
+import fallout1 from '../assets/project-images/fallout1.png'
+import fallout3 from '../assets/project-images/fallout3.png'
+import fallout5 from '../assets/project-images/fallout5.png'
+import fallout7 from '../assets/project-images/fallout7.png'
+import liam from '../assets/project-images/liam.png'
+import david from '../assets/project-images/david.png'
+import hotdS2 from '../assets/project-images/hotd-s2.png'
+import hotdS1 from '../assets/project-images/hotd-s1.png'
+import hotdS2E1 from '../assets/project-images/hotd-s2e1.png'
+import hotdS2E2 from '../assets/project-images/hotd-s2e2.png'
+import hotdS2E45 from '../assets/project-images/hotd-s2e45.png'
+import hotdS2E6 from '../assets/project-images/hotd-s2e6.png'
+import hotdS2E7 from '../assets/project-images/hotd-s2e7.png'
+import hotdS2E8 from '../assets/project-images/hotd-s2e8.png'
+import hotdS2Bad from '../assets/project-images/hotd-s2-bad.png'
+import daemon from '../assets/project-images/daemon.png'
+import nightCity from '../assets/project-images/night-city.png'
+import shogunInfluence from '../assets/project-images/shogun-influence.png'
+import paredesLandingPage from '../assets/project-images/paredes-landing-page.png'
+import ringlingPage from '../assets/project-images/pd-ringling.png'
+
 
 const projectsData = [
   //CO Blog Posts
@@ -409,6 +447,222 @@ const projectsData = [
     completionDate: "2023/03/24",
     link: "https://thepathwitcher.blog/2023/03/24/the-witchers-story-is-not-geralts-alone/",
   },
+  {
+    id: 62,
+    name: "The Aspirations of a Rebel Rockstar",
+    tags: ["MARKETING"],
+    image: rebel,
+    completionDate: "2024/01/12",
+    link: "https://thepathwitcher.blog/2024/01/12/the-aspirations-of-a-rebel-rockstar/",
+  },
+  {
+    id: 63,
+    name: "The Emotional Depths of A Little Sacrifice",
+    tags: ["MARKETING"],
+    image: emotional,
+    completionDate: "2024/01/22",
+    link: "https://thepathwitcher.blog/2024/01/22/the-emotional-depths-of-a-little-sacrifice/",
+  },
+  {
+    id: 64,
+    name: "The Haunted Ghost of a Samurai",
+    tags: ["MARKETING"],
+    image: ghost,
+    completionDate: "2024/01/25",
+    link: "https://thepathwitcher.blog/2024/01/25/the-haunted-ghost-of-a-samurai/",
+  },
+  {
+    id: 66,
+    name: "A Love Colder Than Ice",
+    tags: ["MARKETING"],
+    image: yennefer,
+    completionDate: "2024/02/08",
+    link: "https://thepathwitcher.blog/2024/02/08/a-love-colder-than-ice/",
+  },
+  {
+    id: 67,
+    name: "Is A Copy Of A Person Still A Person?",
+    tags: ["MARKETING"],
+    image: copyPerson,
+    completionDate: "2024/02/15",
+    link: "https://thepathwitcher.blog/2024/02/15/is-a-copy-of-a-person-still-a-person/",
+  },
+  {
+    id: 68,
+    name: "What Makes The Witcher 3: Wild Hunt So Special?",
+    tags: ["MARKETING"],
+    image: wildHunt,
+    completionDate: "2024/02/23",
+    link: "https://thepathwitcher.blog/2024/02/23/what-makes-the-witcher-3-wild-hunt-so-special/",
+  },
+  {
+    id: 69,
+    name: "Panam Palmer: A Guide to This Key Character in Cyberpunk 2077",
+    tags: ["MARKETING"],
+    image: panam,
+    completionDate: "2024/03/07",
+    link: "https://thepathwitcher.blog/2024/03/07/panam-cyberpunk-guide/",
+  },
+  {
+    id: 70,
+    name: "Why Nilfgaard Is Not Your Typical Evil Empire",
+    tags: ["MARKETING"],
+    image: nilfgaard,
+    completionDate: "2024/03/15",
+    link: "https://thepathwitcher.blog/2024/03/15/nilfgaard-evil-empire/",
+  },
+  {
+    id: 71,
+    name: "CD Projekt Red And Their Journey From Swords to Cybernetics",
+    tags: ["MARKETING"],
+    image: cdProjekt,
+    completionDate: "2024/03/22",
+    link: "https://thepathwitcher.blog/2024/03/22/cd-projekt-red-redemption/",
+  },
+  {
+    id: 72,
+    name: "Fallout Episodes 1 and 2 Review: An Explosive Premiere",
+    tags: ["MARKETING"],
+    image: fallout1,
+    completionDate: "2024/04/12",
+    link: "https://thepathwitcher.blog/2024/04/12/fallout-episodes-1-and-2-review/",
+  },
+  {
+    id: 73,
+    name: "Fallout Episodes 3 and 4 Review",
+    tags: ["MARKETING"],
+    image: fallout3,
+    completionDate: "2024/04/17",
+    link: "https://thepathwitcher.blog/2024/04/17/fallout-episodes-3-and-4-review/",
+  },
+  {
+    id: 74,
+    name: "Fallout Episodes 5 and 6 Review",
+    tags: ["MARKETING"],
+    image: fallout5,
+    completionDate: "2024/04/24",
+    link: "https://thepathwitcher.blog/2024/04/24/fallout-episodes-5-and-6-review/",
+  },
+  {
+    id: 75,
+    name: "Fallout Episodes 7 and 8 Review",
+    tags: ["MARKETING"],
+    image: fallout7,
+    completionDate: "2024/05/01",
+    link: "https://thepathwitcher.blog/2024/05/01/fallout-episodes-7-and-8-review/",
+  },
+  {
+    id: 76,
+    name: "The Witcher Fans Should Embrace Liam Hemsworth As Geralt",
+    tags: ["MARKETING"],
+    image: liam,
+    completionDate: "2024/05/10",
+    link: "https://thepathwitcher.blog/2024/05/10/liam-hemsworth/",
+  },
+  {
+    id: 77,
+    name: "David Martinez and the Myth of Specialness in Night City",
+    tags: ["MARKETING"],
+    image: david,
+    completionDate: "2024/05/16",
+    link: "https://thepathwitcher.blog/2024/05/16/david-martinez-myth-special/",
+  },
+  {
+    id: 78,
+    name: "Everything We Know About House of the Dragon Season 2",
+    tags: ["MARKETING"],
+    image: hotdS2,
+    completionDate: "2024/05/23",
+    link: "https://thepathwitcher.blog/2024/05/23/everything-we-know-about-house-of-the-dragon-season-2/",
+  },
+  {
+    id: 79,
+    name: "House of the Dragon Season 1 Recap",
+    tags: ["MARKETING"],
+    image: hotdS1,
+    completionDate: "2024/06/17",
+    link: "https://thepathwitcher.blog/2024/06/17/house-of-the-dragon-season-1/",
+  },
+  {
+    id: 80,
+    name: "House of the Dragon S2E1 Review",
+    tags: ["MARKETING"],
+    image: hotdS2E1,
+    completionDate: "2024/06/21",
+    link: "https://thepathwitcher.blog/2024/06/21/house-of-the-dragon-s2e1-review/",
+  },
+  {
+    id: 81,
+    name: "House of the Dragon S2E2 Review",
+    tags: ["MARKETING"],
+    image: hotdS2E2,
+    completionDate: "2024/06/25",
+    link: "https://thepathwitcher.blog/2024/06/25/house-of-the-dragon-s2e2-review/",
+  },
+  {
+    id: 82,
+    name: "House of the Dragon S2 Episodes 4 & 5 Review",
+    tags: ["MARKETING"],
+    image: hotdS2E45,
+    completionDate: "2024/07/17",
+    link: "https://thepathwitcher.blog/2024/07/17/house-of-the-dragon-s2-episodes-4-5/",
+  },
+  {
+    id: 83,
+    name: "House of the Dragon S2E6 Review",
+    tags: ["MARKETING"],
+    image: hotdS2E6,
+    completionDate: "2024/07/24",
+    link: "https://thepathwitcher.blog/2024/07/24/house-of-the-dragon-s2e6-review/",
+  },
+  {
+    id: 84,
+    name: "House of the Dragon S2E7 Review",
+    tags: ["MARKETING"],
+    image: hotdS2E7,
+    completionDate: "2024/08/01",
+    link: "https://thepathwitcher.blog/2024/08/01/house-of-the-dragon-s2e7-review/",
+  },
+  {
+    id: 85,
+    name: "House of the Dragon S2E8 Review",
+    tags: ["MARKETING"],
+    image: hotdS2E8,
+    completionDate: "2024/08/08",
+    link: "https://thepathwitcher.blog/2024/08/08/house-of-the-dragon-s2e8-review/",
+  },
+  {
+    id: 86,
+    name: "House of the Dragon Season 2: When Dragons Lose Their Fire",
+    tags: ["MARKETING"],
+    image: hotdS2Bad,
+    completionDate: "2024/08/14",
+    link: "https://thepathwitcher.blog/2024/08/14/house-of-the-dragon-season-2/",
+  },
+  {
+    id: 87,
+    name: "Heavy is the Wig That Wears the Crown",
+    tags: ["MARKETING"],
+    image: daemon,
+    completionDate: "2024/08/28",
+    link: "https://thepathwitcher.blog/2024/08/28/daemon/",
+  },
+  {
+    id: 88,
+    name: "How Social Commentary Breathes Life into Night City",
+    tags: ["MARKETING"],
+    image: nightCity,
+    completionDate: "2024/09/12",
+    link: "https://thepathwitcher.blog/2024/09/12/how-social-commentary-breathes-life-into-night-city/",
+  },
+  {
+    id: 89,
+    name: "The Influence of Shogun on Western Perceptions of Japan",
+    tags: ["MARKETING"],
+    image: shogunInfluence,
+    completionDate: "2024/09/19",
+    link: "https://thepathwitcher.blog/2024/09/19/the-influence-of-shogun-on-western-perceptions-of-japan/",
+  },
 
   // Marketing
   {
@@ -423,10 +677,10 @@ const projectsData = [
   // Websites
   {
     id: 27,
-    name: "The Path Website Redesign",
+    name: "Website Redesign",
     tags: ["DESIGN", "DEVELOPMENT", "MARKETING"],
     image: tpWebsite,
-    completionDate: "2023/04/06",
+    completionDate: "2024/03/18",
     link: "https://thepathwitcher.blog/",
   },
   {
@@ -463,10 +717,10 @@ const projectsData = [
   },
   {
     id: 48,
-    name: "E-Commerce Digital Hub",
+    name: "Website Redesign",
     tags: ["DESIGN", "DEVELOPMENT", "MARKETING"],
     image: ship,
-    completionDate: "2023/10/16",
+    completionDate: "2024/8/16",
     link: "https://www.ship.com/",
   },
   {
@@ -479,7 +733,7 @@ const projectsData = [
   },
   {
     id: 53,
-    name: "Website Revamp",
+    name: "Website Revamp and Branding",
     tags: ["DESIGN", "DEVELOPMENT", "MARKETING"],
     image: baGlobal,
     completionDate: "2023/11/22",
@@ -487,11 +741,91 @@ const projectsData = [
   },
   {
     id: 54,
-    name: "Captain Landing Page",
-    tags: ["DESIGN", "DEVELOPMENT", "MARKETING"],
+    name: "Landing Page",
+    tags: ["DESIGN", "DEVELOPMENT"],
     image: captainLandingPage,
     completionDate: "2023/11/30",
     link: "https://www.ship.com/captain",
+  },
+  {
+    id: 55,
+    name: "Landing Page",
+    tags: ["DESIGN", "DEVELOPMENT", "MARKETING"],
+    image: shipSpecialLandingPage,
+    completionDate: "2024/6/30",
+    link: "https://www.ship.com/get-ship-special",
+  },
+  {
+    id: 56,
+    name: "App Development",
+    tags: ["DESIGN", "DEVELOPMENT"],
+    image: shipApp,
+    completionDate: "2024/2/30",
+    link: "https://app.ship.com/",
+  },
+  {
+    id: 57,
+    name: "Sign Up Page",
+    tags: ["DESIGN", "DEVELOPMENT"],
+    image: shipSignUp,
+    completionDate: "2024/5/30",
+    link: "https://www.ship.com/sign-up",
+  },
+  {
+    id: 58,
+    name: "Ambassador Page",
+    tags: ["DESIGN", "DEVELOPMENT"],
+    image: shipAmbassador,
+    completionDate: "2024/4/30",
+    link: "https://www.ship.com/become-ambassador",
+  },
+  {
+    id: 59,
+    name: "Order Delivery Tracking Software",
+    tags: ["DESIGN", "DEVELOPMENT"],
+    image: shipTracking,
+    completionDate: "2024/6/30",
+    link: "https://app.ship.com/",
+  },
+  {
+    id: 60,
+    name: "Web and Mobile App Development",
+    tags: ["DESIGN", "DEVELOPMENT"],
+    image: vamos,
+    completionDate: "2024/8/30",
+    link: "https://codethedream.org/vamos/",
+  },
+  {
+    id: 61,
+    name: "Website Redesign",
+    tags: ["DESIGN", "DEVELOPMENT", "MARKETING"],
+    image: paredes,
+    completionDate: "2024/3/30",
+    link: "https://paredes-marketing.com/"
+  },
+  {
+    id: 65,
+    name: "Poet Website",
+    tags: ["DESIGN", "DEVELOPMENT", "MARKETING"],
+    image: poet,
+    completionDate: "2024/3/30",
+    link: "https://benjaminroseauthor.com/"
+  },
+  {
+    id: 90,
+    name: "Landing Page",
+    tags: ["DESIGN", "DEVELOPMENT", "MARKETING"],
+    image: paredesLandingPage,
+    completionDate: "2024/7/30",
+    link: "https://paredes-marketing.com/free-consultation/"
+  },
+  {
+    id: 91,
+    name: "Landing Page",
+    tags: ["DESIGN", "DEVELOPMENT"],
+    image: ringlingPage,
+    completionDate: "2024/9/01",
+    link: "https://info.parkerdewey.com/ringling"
   },
 ];
 

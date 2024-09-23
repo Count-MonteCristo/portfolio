@@ -4,7 +4,7 @@ import h2StripesSVG from "../assets/h2Stripes.svg";
 import COLogo from "../assets/co.png";
 import KPMGLogo from "../assets/KPMG_logo.png";
 import PDLogo from "../assets/pd.png";
-import ShipLogo from "../assets/ship-logo.svg";
+import ShipLogo from "../assets/ship-logo.png";
 import AMSALogo from "../assets/a&m.png";
 import ProfilePicture from "../assets/Profile.jpg";
 
@@ -71,7 +71,7 @@ const About = () => {
             />
             <img
               src={ShipLogo}
-              alt="The Path logo"
+              alt="Ship.com logo"
               className="company-logo"
             />
           </div>
