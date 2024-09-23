@@ -14,26 +14,37 @@
 
 .hero-heading {
   max-width: 1300px;
-  color: #333;
+  color: #d4d4d4;
   font-size: 88px;
   padding-top: 20px;
   padding-bottom: 20px;
   font-weight: 700;
+  font-family: "Big Shoulders Inline Text", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .hero-subtitle {
-  color: #666;
-  font-size: 24px;
-  font-weight: 500;
+  color: #d4d4d4;
+  font-size: 28px;
+  font-weight: 700;
   margin-bottom: 10px;
   padding-left: 0;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  letter-spacing: 5px;
 }
 
 .hero-description {
-  color: #666;
+  color: #d4d4d4;
   font-size: 28px;
-  font-weight: 400;
+  font-weight: 700;
   margin-bottom: 60px;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  letter-spacing: 5px;
 }
 
 .heroStripes-svg {

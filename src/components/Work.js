@@ -22,7 +22,7 @@ const Work = () => {
         </div>
         <p className="content-section-text">
           Below are some of the innovative projects where I've had the privilege
-          to combine design, development, and SEO expertise to deliver
+          to combine design, development, and marketing expertise to deliver
           outstanding digital experiences.
         </p>
         <div className="work-section-content">
@@ -37,7 +37,7 @@ const Work = () => {
               </div>
               <div className="work-section-content-1-card-tags">
                 <div className="dev-tag">DEVELOPMENT</div>•
-                <div className="seo-tag">SEO</div>
+                <div className="marketing-tag">MARKETING</div>
               </div>
             </div>
             <a
@@ -74,7 +74,7 @@ const Work = () => {
                 its visibility and driving increased organic traffic.
               </div>
               <div className="work-section-content-2-card-tags">
-                <div className="seo-tag">SEO</div>
+                <div className="marketing-tag">MARKETING</div>
               </div>
             </div>
           </div>
@@ -92,7 +92,7 @@ const Work = () => {
               <div className="work-section-content-1-card-tags">
                 <div className="design-tag">DESIGN</div>•
                 <div className="dev-tag">DEVELOPMENT</div>•
-                <div className="seo-tag">SEO</div>
+                <div className="marketing-tag">MARKETING</div>
               </div>
             </div>
             <a

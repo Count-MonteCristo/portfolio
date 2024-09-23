@@ -6,12 +6,19 @@
   padding-right: 30px;
   max-width: 1200px;
   gap: 30px;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  letter-spacing: 3px;
 }
 
 .portfolio-heading {
   color: #333;
   font-size: 96px;
   font-weight: 700;
+  font-family: "Big Shoulders Inline Text", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .portfolio-description {
@@ -24,7 +31,7 @@
   color: #666;
   max-width: 600px;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .portfolio-counter {

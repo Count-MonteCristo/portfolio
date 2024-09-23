@@ -4,6 +4,10 @@
   gap: 50px;
   margin-left: 20px;
   margin-right: 20px;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  letter-spacing: 3px;
 }
 
 .project-image {
@@ -29,7 +33,7 @@
   height: auto;
   min-height: 300px;
   border-radius: 10px;
-  background: #1a304f;
+  background: #242424;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -74,15 +78,15 @@
 }
 
 .design-tag {
-  color: #b7353c;
+  color: #00AEA9;
 }
 
 .dev-tag {
-  color: #d06a42;
+  color: #F3426E;
 }
 
-.seo-tag {
-  color: #d0ad6c;
+.marketing-tag {
+  color: #FD8103;
 }
 
 .work-section-cta-text,
@@ -102,7 +106,7 @@
 
 .cta-button,
 .social-button {
-  color: #d4d4d4;
+  color: #1C1C1C;
   text-align: center;
   font-size: 24px;
   font-weight: 700;
@@ -110,14 +114,14 @@
   height: 75px;
   flex-shrink: 0;
   border-radius: 10px;
-  background: #1a304f;
+  background: #00AEA9;
   border: none;
   transition: background 0.3s ease;
   transition: transform 0.3s ease;
 }
 
 .cta-button:hover {
-  background: #364b76;
+  background: #F3426E;
   transform: scale(1.1);
 }
 

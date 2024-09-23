@@ -4,6 +4,11 @@
   gap: 30px;
   margin-left: 20px;
   margin-right: 20px;
+  padding-top: 60px;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  letter-spacing: 3px;
 }
 
 .about-section-content-1 {
@@ -18,23 +23,23 @@
   width: 100%;
   max-width: 710px;
   border-radius: 10px;
-  background: #1a304f;
+  background: #242424;
   display: flex;
   flex-direction: column;
   gap: 30px;
-  padding: 20px;
+  padding: 30px;
 }
 
 .about-section-content-1-card-title {
   color: #d4d4d4;
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 700;
 }
 
 .about-section-content-1-card-description {
   color: #d4d4d4;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .about-section-cta-text-2 h3 {

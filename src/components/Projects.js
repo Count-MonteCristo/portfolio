@@ -19,11 +19,11 @@ const Projects = () => {
   const getTagColor = (tag) => {
     switch (tag) {
       case "DESIGN":
-        return "#B7353C";
+        return "#00AEA9";
       case "DEVELOPMENT":
-        return "#D06A42";
-      case "SEO":
-        return "#D0AD6C";
+        return "#F3426E";
+      case "MARKETING":
+        return "#FD8103";
       default:
         return "#535E74"; // Default color for unknown tags
     }
@@ -55,10 +55,10 @@ const Projects = () => {
             Development
           </button>
           <button
-            className={`filter ${selectedFilter === "SEO" ? "active" : ""}`}
-            onClick={() => setSelectedFilter("SEO")}
+            className={`filter ${selectedFilter === "MARKETING" ? "active" : ""}`}
+            onClick={() => setSelectedFilter("MARKETING")}
           >
-            SEO
+            Marketing
           </button>
         </div>
 

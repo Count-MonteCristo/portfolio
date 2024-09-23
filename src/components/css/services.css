@@ -13,7 +13,7 @@
 .services-section-card-development,
 .services-section-card-seo {
   border-radius: 10px;
-  background: #1a304f;
+  background: #242424;
   max-width: 340px;
   max-height: 500px;
   display: inline-flex;
@@ -29,6 +29,10 @@
   align-items: center;
   text-align: center;
   gap: 30px;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  letter-spacing: 3px;
 }
 
 .services-section-content-heading {
@@ -39,7 +43,7 @@
 
 .services-section-content-text {
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 /* Tablet */

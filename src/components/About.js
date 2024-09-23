@@ -23,7 +23,6 @@ const About = () => {
           />
           <h2>About</h2>
         </div>
-        <p className="content-section-text">A quick glimpse into who I am.</p>
 
         <div className="about-section-content">
           <div className="about-section-content-1">
