@@ -18,13 +18,11 @@ const Services = () => {
             alt="Stripes"
             className="h2Stripes-svg"
           />
-          <h2>Services</h2>
+          <h2>What I do </h2>
         </div>
         <p className="content-section-text">
-          I'm a passionate software engineer and digital marketer dedicated to
-          crafting exceptional online experiences. With a fusion of creativity
-          and technical expertise, I offer a range of services that empower
-          businesses to thrive in the digital realm.
+        I combine business know-how with tech skills, making digital marketing feel like a breeze.
+        From designing sleek websites to boosting your online presence, I simplify it all, so you can focus on what you do best.
         </p>
         <div className="services-section-cards">
           <div className="services-section-card-design">
@@ -36,8 +34,7 @@ const Services = () => {
               />
               <h3 className="services-section-content-heading">Design</h3>
               <p className="services-section-content-text">
-                I create captivating digital experiences through intuitive UX/UI
-                design that enhance user satisfaction and drive engagement.
+                I design digital experiences that engage and drive conversions.
               </p>
             </div>
           </div>
@@ -50,8 +47,7 @@ const Services = () => {
               />
               <h3 className="services-section-content-heading">Development</h3>
               <p className="services-section-content-text">
-                I build responsive, scalable, and secure websites by blending
-                seamless front-end design with robust back-end functionality.
+                I build websites and apps that are responsive, scalable, and secure.
               </p>
             </div>
           </div>
@@ -62,10 +58,10 @@ const Services = () => {
                 size={80}
                 color={"#FD8103"}
               />
-              <h3 className="services-section-content-heading">SEO</h3>
+              <h3 className="services-section-content-heading">Marketing</h3>
               <p className="services-section-content-text">
-                I craft compelling content that will help your brand soar to the
-                top of search engine results and captivate your target audience.
+                I create content that boosts your brand's visibility and 
+                captivates your audience.
               </p>
             </div>
           </div>

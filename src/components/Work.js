@@ -2,8 +2,9 @@ import React from "react";
 import "./css/work.css";
 import h2StripesSVG from "../assets/h2Stripes.svg";
 import ParkerDeweyHero from "../assets/ParkerDeweyHero.jpg";
-import CleanOriginHero from "../assets/CleanOriginHero.jpg";
+import ThePathHero from "../assets/project-images/tp-website.jpg";
 import ShipHero from "../assets/project-images/ship.jpg";
+import VamosHero from "../assets/project-images/vamos.png";
 
 const Work = () => {
   return (
@@ -18,12 +19,11 @@ const Work = () => {
             alt="Stripes"
             className="h2Stripes-svg"
           />
-          <h2>Work</h2>
+          <h2>Featured Work</h2>
         </div>
         <p className="content-section-text">
-          Below are some of the innovative projects where I've had the privilege
-          to combine design, development, and marketing expertise to deliver
-          outstanding digital experiences.
+          Here are some exciting projects where I've blended design, development, and marketing 
+          to create amazing digital experiences.
         </p>
         <div className="work-section-content">
           <div className="work-section-content-1">
@@ -36,6 +36,7 @@ const Work = () => {
                 engaging copy, providing a seamless experience for users.
               </div>
               <div className="work-section-content-1-card-tags">
+                <div className="design-tag">DESIGN</div>•
                 <div className="dev-tag">DEVELOPMENT</div>•
                 <div className="marketing-tag">MARKETING</div>
               </div>
@@ -55,12 +56,12 @@ const Work = () => {
 
           <div className="work-section-content-2">
             <a
-              href="https://www.cleanorigin.com/"
+              href="https://thepathwitcher.blog/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
-                src={CleanOriginHero}
+                src={ThePathHero}
                 alt="Parker Dewey Website"
                 className="project-image"
               />
@@ -70,10 +71,12 @@ const Work = () => {
                 Increased Online Visibility
               </div>
               <div className="work-section-content-2-card-description">
-                Optimized Clean Origin's website for search engines, elevating
-                its visibility and driving increased organic traffic.
+                Redesigned and optimized The Path/パス website for search engines, elevating
+                its visibility and driving increased organic traffic by over 400% since 2022.
               </div>
               <div className="work-section-content-2-card-tags">
+              <div className="design-tag">DESIGN</div>•
+                <div className="dev-tag">DEVELOPMENT</div>•
                 <div className="marketing-tag">MARKETING</div>
               </div>
             </div>
@@ -108,11 +111,38 @@ const Work = () => {
             </a>
           </div>
 
+          <div className="work-section-content-2">
+            <a
+              href="https://codethedream.org/vamos/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={VamosHero}
+                alt="Vamos Website"
+                className="project-image"
+              />
+            </a>
+            <div className="work-section-content-2-card">
+              <div className="work-section-content-2-card-title">
+                Web and Mobile App Development
+              </div>
+              <div className="work-section-content-2-card-description">
+                Continously enhance user features and overall design for a tool designed specifically for farmworker outreach, 
+                replacing hours of work planning routes, documenting visit details, and administrative reporting.
+              </div>
+              <div className="work-section-content-2-card-tags">
+              <div className="design-tag">DESIGN</div>•
+                <div className="dev-tag">DEVELOPMENT</div>•
+                <div className="marketing-tag">MARKETING</div>
+              </div>
+            </div>
+          </div>
+
           <div className="work-section-cta">
             <div className="work-section-cta-text">
               <h3>
-                Like what you've seen so far? Check out my other noteworthy
-                projects!
+                Like what you've seen so far? Check out my other projects!
               </h3>
             </div>
             <div className="work-section-cta-button">
