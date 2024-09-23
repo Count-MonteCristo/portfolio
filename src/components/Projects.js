@@ -3,7 +3,7 @@ import "./css/projects.css";
 import projectsData from "./projectsData";
 
 const Projects = () => {
-  const [projectsToShow, setProjectsToShow] = useState(6);
+  const [projectsToShow, setProjectsToShow] = useState(9);
   const [selectedFilter, setSelectedFilter] = useState("");
 
   // Function to load more projects when the "Load More" button is clicked

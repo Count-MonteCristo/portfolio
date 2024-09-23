@@ -18,12 +18,11 @@ const Work = () => {
             alt="Stripes"
             className="h2Stripes-svg"
           />
-          <h2>Work</h2>
+          <h2>Featured Work</h2>
         </div>
         <p className="content-section-text">
-          Below are some of the innovative projects where I've had the privilege
-          to combine design, development, and marketing expertise to deliver
-          outstanding digital experiences.
+          Here are some exciting projects where I've blended design, development, and marketing 
+          to create amazing digital experiences.
         </p>
         <div className="work-section-content">
           <div className="work-section-content-1">
@@ -36,6 +35,7 @@ const Work = () => {
                 engaging copy, providing a seamless experience for users.
               </div>
               <div className="work-section-content-1-card-tags">
+                <div className="design-tag">DESIGN</div>•
                 <div className="dev-tag">DEVELOPMENT</div>•
                 <div className="marketing-tag">MARKETING</div>
               </div>
@@ -111,8 +111,7 @@ const Work = () => {
           <div className="work-section-cta">
             <div className="work-section-cta-text">
               <h3>
-                Like what you've seen so far? Check out my other noteworthy
-                projects!
+                Like what you've seen so far? Check out my other projects!
               </h3>
             </div>
             <div className="work-section-cta-button">

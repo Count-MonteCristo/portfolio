@@ -16,7 +16,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 50px;
-  margin-top: -40px;
+  
 }
 
 .about-section-content-1-card {
@@ -46,7 +46,6 @@
   color: #d4d4d4;
   text-align: center;
   padding-top: 20px;
-  font-size: 22px !important;
 }
 
 .company-logos {
