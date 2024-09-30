@@ -128,8 +128,7 @@ const Work = () => {
                 Web and Mobile App Development
               </div>
               <div className="work-section-content-2-card-description">
-                Continously enhance user features and overall design for a tool designed specifically for farmworker outreach, 
-                replacing hours of work planning routes, documenting visit details, and administrative reporting.
+                Continously enhance user features and overall design for a tool designed specifically for farmworker outreach.
               </div>
               <div className="work-section-content-2-card-tags">
               <div className="design-tag">DESIGN</div>•

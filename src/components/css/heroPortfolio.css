@@ -139,6 +139,11 @@
 
 /* Mobile */
 @media (max-width: 425px) {
+  .container{
+    align-items: center;
+    margin-top: 20px;
+  }
+
   .portfolio-heading {
     font-size: 68px;
   }

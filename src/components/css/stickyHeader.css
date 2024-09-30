@@ -10,6 +10,8 @@
   gap: 100px;
   justify-content: space-around;
   align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .sticky-header ul {
@@ -25,11 +27,11 @@
 }
 
 .sticky-header a {
-  color: #d4d4d4;
+  color: #ffffff;
   text-decoration: none;
-  font-size: 22px;
-  font-weight: 700;
-  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   letter-spacing: 3px;
