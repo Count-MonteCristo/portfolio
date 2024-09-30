@@ -163,4 +163,8 @@
   .projects-button-section {
     margin-bottom: -30px;
   }
+
+  .projects-button-section {
+    padding-top: 0px;
+  }
 }

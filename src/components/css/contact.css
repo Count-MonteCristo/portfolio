@@ -83,4 +83,12 @@ a {
     max-width: 400px;
     text-align: center;
   }
+
+  .contact-section-text {
+    font-size: 18px;
+  }
+
+  .social-buttons {
+    margin-bottom: 50px;
+  }
 }

@@ -4,7 +4,7 @@
   gap: 50px;
   margin-left: 20px;
   margin-right: 20px;
-  font-family: "Big Shoulders Display", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   letter-spacing: 3px;
@@ -39,12 +39,13 @@
   gap: 30px;
   padding: 20px;
   transition: background 0.6s ease;
+  justify-content: center;
 }
 
 .work-section-content-1-card-title,
 .work-section-content-2-card-title {
   color: #d4d4d4;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 700;
 }
 
@@ -55,7 +56,7 @@
 .work-section-content-1-card-description,
 .work-section-content-2-card-description {
   color: #d4d4d4;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
 }
 
@@ -66,8 +67,8 @@
 .work-section-content-1-card-tags,
 .work-section-content-2-card-tags {
   color: #d4d4d4;
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 600;
   display: flex;
   gap: 20px;
 }
@@ -184,6 +185,12 @@
   .work-section-content-2-card-title,
   .work-section-content-2-card-description {
     text-align: left;
+  }
+
+  .work-section-content-1-card-tags,
+  .work-section-content-2-card-tags {
+    gap: 10px;
+    font-size: 12px;
   }
 
   .work-section-content-2-card-tags {

@@ -5,7 +5,7 @@
   margin-left: 20px;
   margin-right: 20px;
   padding-top: 60px;
-  font-family: "Big Shoulders Display", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   letter-spacing: 3px;
@@ -38,7 +38,7 @@
 
 .about-section-content-1-card-description {
   color: #d4d4d4;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
 }
 
@@ -100,9 +100,13 @@
 
 /* Mobile */
 @media (max-width: 425px) {
+  .about-section-content {
+    padding-top: 30px;
+  }
+
   .about-section-content-1 {
     max-width: 380px;
-    display: block;
+    flex-direction: column-reverse;
   }
 
   .about-section-content-1-card {
@@ -110,11 +114,11 @@
   }
 
   .company-logos {
-    max-width: 400px;
+    max-width: 300px;
+    align-self: center;
   }
 
   .profile {
-    width: 380px;
     margin-top: 30px;
   }
 }
