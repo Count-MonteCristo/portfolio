@@ -119,6 +119,8 @@
 
   .portfolio-text {
     font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .number {
@@ -132,7 +134,7 @@
   .cta-button-hero {
     width: 220px;
     height: 55px;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 40px;
   }
 }
@@ -154,14 +156,16 @@
 
   .portfolio-counter {
     gap: 40px;
-    margin-left: -20px;
   }
 
   .label {
-    text-align: right;
+    text-align: center;
   }
 
-  .number {
-    margin-right: -40px;
+
+  .successful-projects,
+  .experience {
+    display: flex;
+    flex-direction: column;
   }
 }
