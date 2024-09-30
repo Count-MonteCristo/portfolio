@@ -91,4 +91,8 @@ a {
   .social-buttons {
     margin-bottom: 50px;
   }
+
+  .contact-section-heading h2 {
+    padding-left: 0px;
+  }
 }
