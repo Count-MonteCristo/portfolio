@@ -4,7 +4,7 @@
   gap: 20px;
   max-width: 1200;
   padding-top: 100px;
-  font-family: "Big Shoulders Display", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   letter-spacing: 3px;
@@ -13,7 +13,7 @@
 .filter {
   color: #bbb;
   text-align: center;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 700;
   background: none;
   border: none;
@@ -39,7 +39,7 @@
 .projects-container-wrapper {
   display: flex;
   justify-content: center;
-  padding-top: 90px;
+  padding-top: 40px;
   color: #d4d4d4;
 }
 
@@ -63,7 +63,7 @@
   margin-bottom: 20px;
   padding: 10px;
   box-sizing: border-box;
-  font-family: "Big Shoulders Display", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   letter-spacing: 3px;
@@ -92,7 +92,7 @@
   margin-top: 20px;
   margin-bottom: 20px;
   color: #f6faff;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 700;
 }
 
@@ -147,7 +147,9 @@
   }
 
   .filters {
-    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 40px;
@@ -155,6 +157,8 @@
 
   .filter {
     font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .projects-container-wrapper {
