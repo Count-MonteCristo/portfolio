@@ -190,7 +190,7 @@
   .work-section-content-1-card-tags,
   .work-section-content-2-card-tags {
     gap: 10px;
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .work-section-content-2-card-tags {
@@ -198,12 +198,12 @@
   }
 
   .project-image {
-    max-width: 385px;
+    max-width: 325px;
   }
 
   .work-section-content-1-card-title,
   .work-section-content-2-card-title {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .work-section-cta-text,
