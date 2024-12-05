@@ -89,6 +89,14 @@ import nightCity from '../assets/project-images/night-city.png'
 import shogunInfluence from '../assets/project-images/shogun-influence.png'
 import paredesLandingPage from '../assets/project-images/paredes-landing-page.png'
 import ringlingPage from '../assets/project-images/pd-ringling.png'
+import escapeFate from '../assets/project-images/escape-fate.jpg'
+import cyberpunkMultiplayer from '../assets/project-images/cyberpunk-multiplayer.jpg'
+import cyberpunkLonely from '../assets/project-images/cyberpunk-lonely.jpg'
+import fableFour from '../assets/project-images/fable-4.jpg'
+import gladiatorReview from '../assets/project-images/gladiator-review.jpg'
+import witcherFour from '../assets/project-images/witcher-4.jpg'
+import swarthmorePage from '../assets/project-images/swarthmore-page.jpg'
+import shipVariant from '../assets/project-images/ship-variant.jpg'
 
 
 const projectsData = [
@@ -663,6 +671,54 @@ const projectsData = [
     completionDate: "2024/09/19",
     link: "https://thepathwitcher.blog/2024/09/19/the-influence-of-shogun-on-western-perceptions-of-japan/",
   },
+  {
+    id: 92,
+    name: "Can One Truly Escape Fate?",
+    tags: ["MARKETING"],
+    image: escapeFate,
+    completionDate: "2024/09/30",
+    link: "https://thepathwitcher.blog/2024/09/30/can-one-truly-escape-fate/",
+  },
+  {
+    id: 93,
+    name: "Is Cyberpunk Finally Getting Multiplayer?",
+    tags: ["MARKETING"],
+    image: cyberpunkMultiplayer,
+    completionDate: "2024/11/13",
+    link: "https://thepathwitcher.blog/2024/11/13/is-cyberpunk-finally-getting-multiplayer/",
+  },
+  {
+    id: 94,
+    name: "Is Tech Making Us All Lonely? Cyberpunk 2077 Thinks So",
+    tags: ["MARKETING"],
+    image: cyberpunkLonely,
+    completionDate: "2024/11/14",
+    link: "https://thepathwitcher.blog/2024/11/14/is-tech-making-us-all-lonely-cyberpunk-2077-thinks-so/",
+  },
+  {
+    id: 95,
+    name: "Could Fable 4 Become the Next Witcher?",
+    tags: ["MARKETING"],
+    image: fableFour,
+    completionDate: "2024/11/19",
+    link: "https://thepathwitcher.blog/2024/11/19/could-fable-4-become-the-next-witcher/",
+  },
+  {
+    id: 96,
+    name: "Spoiler-Free Gladiator 2 Review – Is It Better Than the Original?",
+    tags: ["MARKETING"],
+    image: gladiatorReview,
+    completionDate: "2024/11/27",
+    link: "https://thepathwitcher.blog/2024/11/27/spoiler-free-gladiator-2-review/",
+  },
+  {
+    id: 97,
+    name: "CD Projekt Red Promises The Witcher 4 Will Be Different",
+    tags: ["MARKETING"],
+    image: witcherFour,
+    completionDate: "2024/12/04",
+    link: "https://thepathwitcher.blog/2024/12/04/cd-projekt-red-promises-the-witcher-4-will-be-different/",
+  },
 
   // Marketing
   {
@@ -790,7 +846,7 @@ const projectsData = [
   {
     id: 60,
     name: "Web and Mobile App Development",
-    tags: ["DESIGN", "DEVELOPMENT"],
+    tags: ["DEVELOPMENT"],
     image: vamos,
     completionDate: "2024/8/30",
     link: "https://codethedream.org/vamos/",
@@ -826,6 +882,22 @@ const projectsData = [
     image: ringlingPage,
     completionDate: "2024/9/01",
     link: "https://info.parkerdewey.com/ringling"
+  },
+  {
+    id: 98,
+    name: "Web Content Accessibility Guidelines (WCAG) Improvements",
+    tags: ["DESIGN", "DEVELOPMENT"],
+    image: swarthmorePage,
+    completionDate: "2024/12/01",
+    link: "https://info.parkerdewey.com/swarthmore/swatworksapply"
+  },
+  {
+    id: 99,
+    name: "Landing Page - A/B Testing",
+    tags: ["DESIGN", "DEVELOPMENT"],
+    image: shipVariant,
+    completionDate: "2024/12/02",
+    link: "https://www.ship.com/get-ship-special-variant?utm_content=var"
   },
 ];
 

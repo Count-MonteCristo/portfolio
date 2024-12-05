@@ -25,7 +25,7 @@
 
 .social-button {
   display: flex;
-  width: 400px;
+  width: 420px;
   justify-content: center;
   align-items: center;
   transition: background 0.3s ease;
@@ -36,7 +36,7 @@
   display: flex;
   align-items: center;
   justify-content: left;
-  width: 150px;
+  width: 180px;
 }
 
 .social-label {

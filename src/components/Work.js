@@ -94,8 +94,7 @@ const Work = () => {
               </div>
               <div className="work-section-content-1-card-tags">
                 <div className="design-tag">DESIGN</div>•
-                <div className="dev-tag">DEVELOPMENT</div>•
-                <div className="marketing-tag">MARKETING</div>
+                <div className="dev-tag">DEVELOPMENT</div>
               </div>
             </div>
             <a
@@ -131,10 +130,8 @@ const Work = () => {
                 Continously enhance user features and overall design for a tool designed specifically for farmworker outreach.
               </div>
               <div className="work-section-content-2-card-tags">
-              <div className="design-tag">DESIGN</div>•
-                <div className="dev-tag">DEVELOPMENT</div>•
-                <div className="marketing-tag">MARKETING</div>
-              </div>
+                <div className="dev-tag">DEVELOPMENT</div>
+                </div>
             </div>
           </div>
 
