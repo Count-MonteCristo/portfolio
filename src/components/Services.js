@@ -32,9 +32,9 @@ const Services = () => {
                 size={80}
                 color={"#00AEA9"}
               />
-              <h3 className="services-section-content-heading">Design</h3>
+              <h3 className="services-section-content-heading"> Web Design</h3>
               <p className="services-section-content-text">
-                I design digital experiences that engage and drive conversions.
+                Digital experiences that engage and drive conversions.
               </p>
             </div>
           </div>
@@ -47,7 +47,7 @@ const Services = () => {
               />
               <h3 className="services-section-content-heading">Development</h3>
               <p className="services-section-content-text">
-                I build websites and apps that are responsive, scalable, and secure.
+                Websites and apps that are responsive, scalable, and secure.
               </p>
             </div>
           </div>
@@ -60,8 +60,7 @@ const Services = () => {
               />
               <h3 className="services-section-content-heading">Marketing</h3>
               <p className="services-section-content-text">
-                I create content that boosts your brand's visibility and 
-                captivates your audience.
+                Content that boosts your brand's visibility 
               </p>
             </div>
           </div>

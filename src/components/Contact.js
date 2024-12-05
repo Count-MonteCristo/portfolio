@@ -2,6 +2,7 @@ import React from "react";
 import "./css/contact.css";
 import { BiMailSend } from "react-icons/bi";
 import { BiLogoLinkedin } from "react-icons/bi";
+import { BiLogoInstagramAlt } from "react-icons/bi";
 import { BsGithub } from "react-icons/bs";
 
 const Contact = () => {
@@ -39,6 +40,18 @@ const Contact = () => {
               <div className="social-button-content">
                 <BiLogoLinkedin size={30} />
                 <div className="social-label">LinkedIn</div>
+              </div>
+            </button>
+          </a>
+          <a
+            href="https://www.instagram.com/el.dev.latino/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="social-button">
+              <div className="social-button-content">
+                <BiLogoInstagramAlt size={30} />
+                <div className="social-label">Instagram</div>
               </div>
             </button>
           </a>
