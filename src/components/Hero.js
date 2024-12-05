@@ -31,7 +31,7 @@ const Hero = () => {
               />
             </h1>
             <p className="hero-description">
-              An all-in-one solution for your digital needs
+              Transforming Digital Dreams into Reality
             </p>
           </div>
         </div>

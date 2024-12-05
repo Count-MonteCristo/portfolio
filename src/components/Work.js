@@ -19,7 +19,7 @@ const Work = () => {
             alt="Stripes"
             className="h2Stripes-svg"
           />
-          <h2>Featured Work</h2>
+          <h2>Projects That Speak for Themselves</h2>
         </div>
         <p className="content-section-text">
           Here are some exciting projects where I've blended design, development, and marketing 
@@ -29,11 +29,10 @@ const Work = () => {
           <div className="work-section-content-1">
             <div className="work-section-content-1-card">
               <div className="work-section-content-1-card-title">
-                Responsive Website Revamp
+                Total Website Makeover
               </div>
               <div className="work-section-content-1-card-description">
-                Enhanced Parker Dewey's website through meticulous coding and
-                engaging copy, providing a seamless experience for users.
+                Turned Parker Dewey's website from bland to grand. New design, smarter tech, and a marketing plan that got people talking.
               </div>
               <div className="work-section-content-1-card-tags">
                 <div className="design-tag">DESIGN</div>•
@@ -68,11 +67,10 @@ const Work = () => {
             </a>
             <div className="work-section-content-2-card">
               <div className="work-section-content-2-card-title">
-                Increased Online Visibility
+                Traffic Explosion
               </div>
               <div className="work-section-content-2-card-description">
-                Redesigned and optimized The Path/パス website for search engines, elevating
-                its visibility and driving increased organic traffic by over 400% since 2022.
+                Rebuilt The Path/パス website from scratch. The result? Their web traffic jumped by 400% in less than a year.
               </div>
               <div className="work-section-content-2-card-tags">
               <div className="design-tag">DESIGN</div>•
@@ -85,12 +83,10 @@ const Work = () => {
           <div className="work-section-content-1">
             <div className="work-section-content-1-card">
               <div className="work-section-content-1-card-title">
-                E-Commerce Digital Hub
+                SaaS Platform Development
               </div>
               <div className="work-section-content-1-card-description">
-                Collaborated with Ship.com to create a visually appealing and
-                functional platform to enhance user engagement and drive
-                business growth.
+              Partnered with Ship.com to design a powerful SaaS platform that streamlines workflows and supercharges business productivity.
               </div>
               <div className="work-section-content-1-card-tags">
                 <div className="design-tag">DESIGN</div>•
@@ -124,10 +120,10 @@ const Work = () => {
             </a>
             <div className="work-section-content-2-card">
               <div className="work-section-content-2-card-title">
-                Web and Mobile App Development
+                Tech with a Purpose
               </div>
               <div className="work-section-content-2-card-description">
-                Continously enhance user features and overall design for a tool designed specifically for farmworker outreach.
+                Actively contribute to a digital tool to support farmworkers. Because great technology isn't just about cool features - it's about making a real difference.
               </div>
               <div className="work-section-content-2-card-tags">
                 <div className="dev-tag">DEVELOPMENT</div>
@@ -138,7 +134,7 @@ const Work = () => {
           <div className="work-section-cta">
             <div className="work-section-cta-text">
               <h3>
-                Like what you've seen so far? Check out my other projects!
+              Liking what you see? Take a look at some of my other projects!
               </h3>
             </div>
             <div className="work-section-cta-button">

@@ -16,10 +16,10 @@ const Contact = () => {
           <h2>Let's Make it Happen</h2>
         </div>
         <p className="contact-section-text">
-          If you're ready to take your online presence to the next level, I'm
-          here to make it happen. Whether you need a compelling website, a
-          powerful web application, or marketing that drives growth, I've got
-          you covered.
+          Need a website that works, an app that solves problems, or marketing that gets results - and grows your business?
+          <br />
+          <br />
+          Let's talk.
         </p>
 
         <div className="social-buttons">

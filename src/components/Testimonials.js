@@ -44,9 +44,7 @@ const Testimonials = () => {
           <h2>Testimonials</h2>
         </div>
         <p className="content-section-text">
-          I have a passion for creating digital experiences that leave a lasting
-          impact. But don't just take my word for it. See what some of my
-          amazing clients have to say
+          I’m passionate about building digital experiences that truly make an impact. But don’t just take it from me - hear it straight from the amazing clients I’ve had the privilege to work with. Their stories say it all.
         </p>
 
         {/* Testimonial carousel */}

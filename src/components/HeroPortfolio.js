@@ -22,8 +22,7 @@ const HeroPortfolio = () => {
           <div className="portfolio-heading">Portfolio</div>
           <div className="portfolio-description">
             <div className="portfolio-text">
-              See how I have helped others transform their digital presence and
-              achieve their goals.
+              Take a look at how I’ve helped others elevate their digital presence and reach their goals
             </div>
             <div className="portfolio-counter">
               <div className="successful-projects">

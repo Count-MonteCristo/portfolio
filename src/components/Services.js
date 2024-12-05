@@ -21,8 +21,7 @@ const Services = () => {
           <h2>What I do </h2>
         </div>
         <p className="content-section-text">
-        I combine business know-how with tech skills, making digital marketing feel like a breeze.
-        From designing sleek websites to boosting your online presence, I simplify it all, so you can focus on what you do best.
+        I help businesses shine online - without the headache. Whether you need a website that looks great, an app that works smoothly, or marketing that actually gets noticed, I've got you covered.
         </p>
         <div className="services-section-cards">
           <div className="services-section-card-design">
@@ -34,8 +33,7 @@ const Services = () => {
               />
               <h3 className="services-section-content-heading"> Web Design</h3>
               <p className="services-section-content-text">
-                Digital experiences that engage and drive conversions.
-              </p>
+                Turning brands into visual stories that grab attention and don't let go.              </p>
             </div>
           </div>
           <div className="services-section-card-development">
@@ -47,7 +45,7 @@ const Services = () => {
               />
               <h3 className="services-section-content-heading">Development</h3>
               <p className="services-section-content-text">
-                Websites and apps that are responsive, scalable, and secure.
+                Building digital tools that work seamlessly across every device and platform.
               </p>
             </div>
           </div>
@@ -60,7 +58,7 @@ const Services = () => {
               />
               <h3 className="services-section-content-heading">Marketing</h3>
               <p className="services-section-content-text">
-                Content that boosts your brand's visibility 
+                Creating online strategies that get you seen, heard, and remembered.
               </p>
             </div>
           </div>

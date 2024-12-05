@@ -21,22 +21,23 @@ const About = () => {
             alt="Stripes"
             className="h2Stripes-svg"
           />
-          <h2>Get To Know Me</h2>
+          <h2>Who I Am</h2>
         </div>
 
         <div className="about-section-content">
           <div className="about-section-content-1">
             <div className="about-section-content-1-card">
               <div className="about-section-content-1-card-description">
-                Based out of San Antonio, Texas, I'm a software engineer and digital marketer on a mission to create digital experiences 
-                that captivate users and forge genuine connections between brands and their audiences.
+                A San Antonio digital creator hustling to turn digital dreams into reality.
                 <br/>
                 <br/>
-                I believe that great work comes from a balanced life, so I always make time for hobbies that inspire me and keep my energy high.
+                By day, I'm crafting solutions that help businesses grow. By night, I'm playing rugby, jamming to live music, or exploring the world, proving that a killer career and an epic life aren't mutually exclusive.
                 <br/>
                 <br/>
-                That is why when I'm not coding or brainstorming, I am all about lifting weights, playing rugby, jamming to live music of every kind, travelling all over, and 
-                cherishing moments with friends and family.
+                Whether I'm designing a website that tells a brand's story or creating a marketing campaign that cuts through the noise, I bring the same energy I bring to the rugby field - 
+                <br/>
+                <br/>
+                100% commitment, zero BS.
               </div>
             </div>
             <img
