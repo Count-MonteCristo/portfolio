@@ -28,17 +28,13 @@ const About = () => {
           <div className="about-section-content-1">
             <div className="about-section-content-1-card">
               <div className="about-section-content-1-card-description">
-                A San Antonio digital creator hustling to turn digital dreams into reality.
+                I'm a San Antonio-based software engineer turning big ideas into meaningful digital experiences.
                 <br/>
                 <br/>
-                By day, I'm crafting solutions that help businesses grow. By night, I'm playing rugby, jamming to live music, or exploring the world, proving that a killer career and an epic life aren't mutually exclusive.
+                I help businesses grow by designing websites that tell their story, creating marketing campaigns that get noticed, and bringing a thoughtful, results-driven approach to every project.
                 <br/>
                 <br/>
-                Whether I'm designing a website that tells a brand's story or creating a marketing campaign that cuts through the noise, I bring the same energy I bring to the rugby field - 
-                <br/>
-                <br/>
-                100% commitment, zero BS.
-              </div>
+                Off the clock, I'm chasing live music, exploring hidden corners of the city (and the world), or hunting down the best tacos I can find - because life's too short for cookie-cutter work or bland food.              </div>
             </div>
             <img
               src={ProfilePicture}
