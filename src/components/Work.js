@@ -26,7 +26,7 @@ const Work = () => {
           to create amazing digital experiences.
         </p>
         <div className="work-section-content">
-          <div className="work-section-content-1">
+          {/* <div className="work-section-content-1">
             <div className="work-section-content-1-card">
               <div className="work-section-content-1-card-title">
                 Total Website Makeover
@@ -51,7 +51,7 @@ const Work = () => {
                 className="project-image"
               />
             </a>
-          </div>
+          </div> */}
 
           <div className="work-section-content-2">
             <a
