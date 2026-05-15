@@ -1,7 +1,7 @@
 import React from "react";
 import "./css/work.css";
 import h2StripesSVG from "../assets/h2Stripes.svg";
-import ParkerDeweyHero from "../assets/ParkerDeweyHero.jpg";
+// import ParkerDeweyHero from "../assets/ParkerDeweyHero.jpg";
 import ThePathHero from "../assets/project-images/tp-website.jpg";
 import ShipHero from "../assets/project-images/ship.jpg";
 import VamosHero from "../assets/project-images/vamos.png";
